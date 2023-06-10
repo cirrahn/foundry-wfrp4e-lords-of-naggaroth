@@ -2,14 +2,12 @@ name: Create Release
 
 on:
    push:
-      tags:
-         - 'v**'
-
+      branches: ["dev"]
    workflow_dispatch:
 
 concurrency:
-   cancel-in-progress: true
    group: "release"
+   cancel-in-progress: true
 
 jobs:
    build-and-deploy:
@@ -28,8 +26,8 @@ jobs:
                zip -r ../wfrp4e-lords-of-naggaroth.zip .
                popd
 
-         -  name: Upload
+         -  name: Create Release
             run: |
-               hub release create -a dist/wfrp4e-lords-of-naggaroth.zip -a dist/wfrp4e-lords-of-naggaroth/module.json -m "${{ github.ref_name }}" ${{ github.ref_name }}
+               gh release create "dev-${{github.run_number}}" --title "dev-${{github.run_number}}" --notes "dev build ${{github.run_number}}" dist/wfrp4e-lords-of-naggaroth.zip dist/wfrp4e-lords-of-naggaroth/module.json
             env:
-               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+               GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
