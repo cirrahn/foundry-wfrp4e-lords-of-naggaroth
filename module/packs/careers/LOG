@@ -1,16 +1,17 @@
-2023/06/10-21:17:51.388 3c8c Recovering log #15
-2023/06/10-21:17:51.481 3c8c Delete type=0 #7
-2023/06/10-21:17:51.482 3c8c Delete type=0 #15
-2023/06/10-21:17:51.482 3c8c Delete type=3 #4
-2023/06/10-21:17:51.482 3c8c Delete type=3 #14
-2023/06/10-21:41:38.142 4990 Level-0 table #19: started
-2023/06/10-21:41:38.175 4990 Level-0 table #19: 7327 bytes OK
-2023/06/10-21:41:38.234 4990 Delete type=0 #17
-2023/06/10-21:41:38.409 4990 Manual compaction at level-0 from '!items!8gSSvZKx0ZaedT0y' @ 72057594037927935 : 1 .. '!items!yp0qaJlW2JjOk89c' @ 0 : 0; will stop at '!items!yp0qaJlW2JjOk89c' @ 3 : 1
-2023/06/10-21:41:38.409 4990 Compacting 1@0 + 1@1 files
-2023/06/10-21:41:38.443 4990 Generated table #20@0: 4 keys, 1788 bytes
-2023/06/10-21:41:38.443 4990 Compacted 1@0 + 1@1 files => 1788 bytes
-2023/06/10-21:41:38.518 4990 compacted to: files[ 0 1 0 0 0 0 0 ]
-2023/06/10-21:41:38.518 4990 Delete type=2 #9
-2023/06/10-21:41:38.518 4990 Delete type=2 #19
-2023/06/10-21:41:38.592 4990 Manual compaction at level-0 from '!items!yp0qaJlW2JjOk89c' @ 3 : 1 .. '!items!yp0qaJlW2JjOk89c' @ 0 : 0; will stop at (end)
+2023/06/11-16:22:32.074 2b50 Recovering log #34
+2023/06/11-16:22:32.074 2b50 Level-0 table #36: started
+2023/06/11-16:22:32.113 2b50 Level-0 table #36: 788 bytes OK
+2023/06/11-16:22:32.214 2b50 Delete type=0 #34
+2023/06/11-16:22:32.214 2b50 Delete type=3 #33
+2023/06/11-22:52:46.890 42c8 Level-0 table #39: started
+2023/06/11-22:52:46.915 42c8 Level-0 table #39: 20182 bytes OK
+2023/06/11-22:52:46.965 42c8 Delete type=0 #37
+2023/06/11-22:52:46.965 42c8 Manual compaction at level-0 from '!items!6YMJGc5jBGPCds1v' @ 72057594037927935 : 1 .. '!items!yp0qaJlW2JjOk89c' @ 0 : 0; will stop at '!items!OKUAjkV08rClaF1g' @ 31 : 1
+2023/06/11-22:52:46.966 42c8 Compacting 2@0 + 1@1 files
+2023/06/11-22:52:47.040 42c8 Generated table #40@0: 16 keys, 6859 bytes
+2023/06/11-22:52:47.041 42c8 Compacted 2@0 + 1@1 files => 6859 bytes
+2023/06/11-22:52:47.089 42c8 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/06/11-22:52:47.090 42c8 Delete type=2 #20
+2023/06/11-22:52:47.090 42c8 Delete type=2 #36
+2023/06/11-22:52:47.090 42c8 Delete type=2 #39
+2023/06/11-22:52:47.291 42c8 Manual compaction at level-0 from '!items!OKUAjkV08rClaF1g' @ 31 : 1 .. '!items!yp0qaJlW2JjOk89c' @ 0 : 0; will stop at (end)
