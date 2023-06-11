@@ -3,4 +3,6 @@ export class Consts {
 
 	static LW_WRAPPER = "WRAPPER";
 	static LW_MIXED = "MIXED";
+
+	static SETTING_SKIN = "skin";
 }

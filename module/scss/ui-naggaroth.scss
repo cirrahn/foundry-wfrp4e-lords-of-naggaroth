@@ -1,0 +1,262 @@
+.skin-naggaroth {
+	body {
+		background: url("../ui/background.webp") repeat;
+	}
+
+	#players {
+		border-image: url("../ui/players-border.webp") 21 repeat;
+		border-image-slice: 23 19 23 19;
+		border-image-width: 23px 19px 23px 19px;
+		border-image-outset: 22px 17px 16px 14px;
+	}
+
+	#hotbar #action-bar #macro-list {
+		background: url("../ui/frames/hotkeybox-macro-list.webp");
+	}
+
+	#hotbar #action-bar .macro {
+		border-image: url("../ui/frames/hotkeybox.webp") 21 repeat;
+		border-image-slice: 6 6 6 6 fill;
+		border-image-width: 6px 6px 6px 6px;
+		border-image-outset: 0 0 0 0;
+	}
+
+	#pause > img {
+		content: url("../ui/khaine.webp");
+	}
+
+
+	#sidebar {
+		background: url("../ui/sidebar.webp") repeat;
+	}
+
+	#sidebar-tabs {
+		background: url("../ui/sidebar-border.webp") repeat;
+	}
+
+	.sidebar-popout button,
+	.sidebar-tab .directory-footer button,
+	#macros .directory-footer button,
+	#macros .directory-footer button,
+	#sidebar button,
+	#sidebar .header-actions button,
+	.action-buttons button {
+		border-image: url("../ui/footer-button.webp") 10 repeat;
+		border-image-width: 4px;
+		border-image-outset: 0;
+		background: url("../ui/sidebar_button-background_red.webp") repeat;
+	}
+
+	#chat-form {
+		border-image: url("../ui/chat-form-border.webp") 10 repeat;
+		border-image-width: 10px;
+		border-image-outset: 0 0;
+	}
+
+	#controls .scene-control.active,
+	#controls .control-tool.active,
+	#controls .scene-control:hover,
+	#controls .control-tool:hover {
+		background: url("../ui/sidebar_button-background_red.webp") repeat !important;
+		border-image: url("../ui/footer-button.webp") 10 repeat !important;
+		border-image-width: 4px !important;
+		border-image-outset: 0 !important;
+	}
+
+	#hotbar .bar-controls {
+		border: 2px solid #3d14bdc2;
+	}
+
+	#navigation #scene-list .scene.view,
+	#navigation #scene-list .scene.context {
+		background: url("../ui/sidebar_button-background_red.webp") repeat;
+	}
+
+	#sidebar.collapsed {
+		border-image: url("../ui/frames/sidebar-collapsed.webp");
+		border-image-slice: 9 fill;
+		border-image-width: 9px;
+		border-image-outset: 0 0 0 0;
+		border-image-repeat: repeat;
+	}
+
+	#navigation #scene-list .scene.nav-item {
+		border-image: url("../ui/footer-button.webp") 10 repeat;
+		border-image-width: 4px;
+		border-image-outset: 0;
+	}
+
+	#sidebar-tabs > [data-tab~="chat"] {
+		background: url("../ui/sidebar-button-chat.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="chat"].active i {
+		background: url("../ui/sidebar-button-chat-active.webp");
+	}
+
+
+	#sidebar-tabs > [data-tab~="combat"] {
+		background: url("../ui/sidebar-button-combat.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="combat"].active i {
+		background: url("../ui/sidebar-button-combat-active.webp");
+	}
+
+
+	#sidebar-tabs > [data-tab~="scenes"] {
+		background: url("../ui/sidebar-button-scenes.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="scenes"].active i {
+		background: url("../ui/sidebar-button-scenes-active.webp");
+	}
+
+
+	#sidebar-tabs > [data-tab~="actors"] {
+		background: url("../ui/sidebar-button-actors.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="actors"].active i {
+		background: url("../ui/sidebar-button-actors-active.webp");
+	}
+
+
+	#sidebar-tabs > [data-tab~="items"] {
+		background: url("../ui/sidebar-button-items.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="items"].active i {
+		background: url("../ui/sidebar-button-items-active.webp");
+	}
+
+
+	#sidebar-tabs > [data-tab~="journal"] {
+		background: url("../ui/sidebar-button-journal.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="journal"].active i {
+		background: url("../ui/sidebar-button-journal-active.webp");
+	}
+
+
+	#sidebar-tabs > [data-tab~="tables"] {
+		background: url("../ui/sidebar-button-tables.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="tables"].active i {
+		background: url("../ui/sidebar-button-tables-active.webp");
+	}
+
+
+	#sidebar-tabs > [data-tab~="cards"] {
+		background: url("../ui/sidebar-button-cards.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="cards"].active i {
+		background: url("../ui/sidebar-button-cards-active.webp");
+	}
+
+
+	#sidebar-tabs > [data-tab~="playlists"] {
+		background: url("../ui/sidebar-button-playlists.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="playlists"].active i {
+		background: url("../ui/sidebar-button-playlists-active.webp");
+	}
+
+
+	#sidebar-tabs > [data-tab~="compendium"] {
+		background: url("../ui/sidebar-button-compendium.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="compendium"].active i {
+		background: url("../ui/sidebar-button-compendium-active.webp");
+	}
+
+
+	#sidebar-tabs > [data-tab~="settings"] {
+		background: url("../ui/sidebar-button-settings.webp");
+	}
+
+	#sidebar-tabs > [data-tab~="settings"].active i {
+		background: url("../ui/sidebar-button-settings-active.webp");
+	}
+
+	#sidebar-tabs > .collapse {
+		background: url("../ui/sidebar-button-collapse.webp");
+	}
+
+	#sidebar.collapsed .collapse {
+		background: url("../ui/sidebar-button-settings-active.webp");
+	}
+
+	#logo {
+		content: url("../ui/logo.webp");
+	}
+
+	.app.window-app .dialog-buttons button, .app.window-app .sheet-footer button, .app.window-app .form-group .file-picker, .app.window-app button[type="button"], .app.window-app button[type="submit"], .app.window-app button[type="reset"] {
+		border: 1px solid black;
+		border-image: url("../ui/footer-button.webp") 10 repeat;
+		border-image-width: 4px;
+		border-image-outset: 0;
+		background: url("../ui/sidebar_button-background_red.webp") repeat;
+		background-origin: padding-box;
+	}
+
+	.window-app .window-header .window-title .document-id-link, .window-app .window-header .document-id-link {
+		background: url("../ui/buttons/button-id.webp");
+		background-position-x: 1px;
+		background-position-y: -4px;
+	}
+
+	.app.window-app .window-header .configure-sheet {
+		background: url("../ui/buttons/button-configure-sheet.webp");
+	}
+
+	.app.window-app .window-header .configure-token {
+		background: url("../ui/buttons/button-configure-token.webp");
+	}
+
+	.app.window-app .window-header .close {
+		background: url("../ui/buttons/button-close.webp");
+	}
+
+	.window-app.dialog.wfrp4e-dialog .window-content {
+		border-width: 10px;
+		border-image: url("../ui/window-app-dialog-content.webp") 5 repeat;
+		border-image-slice: 10 13 13 13;
+		border-image-width: 10px 13px 13px 13px;
+		border-image-outset: 8px;
+	}
+
+	.app.window-app .window-content {
+		background: url("../ui/frames/window-app-background-bookshelf.webp");
+		background-position: -43px -120px;
+	}
+
+	.window-app.dialog.wfrp4e-dialog .window-header {
+		background: url("../ui/frames/window-app-header-blank.webp") repeat;
+	}
+
+	#chat-controls i {
+		width: 30px;
+		height: 30px;
+		position: relative;
+		top: 3px;
+		background: url("../ui/buttons/chat-button-d20.webp");
+	}
+
+	#chat-controls .control-buttons .export-log i {
+		background: url("../ui/buttons/chat-button-export.webp");
+		position: relative;
+		right: 20px;
+	}
+
+	#chat-controls .control-buttons .delete i {
+		background: url("../ui/buttons/chat-button-clear.webp");
+		position: relative;
+		right: 10px;
+	}
+}

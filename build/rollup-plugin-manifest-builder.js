@@ -18,15 +18,15 @@ export class RollupManifestBuilder {
 						{
 							"name": "cirrahn",
 							"url": "https://www.patreon.com/cirrahn",
-							"discord": "Murray#3081",
+							"discord": "cirrahn#3081",
 							"flags": {
 								"patreon": "cirrahn",
-								"github": "cirrahn"
-							}
-						}
+								"github": "cirrahn",
+							},
+						},
 					],
 					"keywords": [
-						"content"
+						"content",
 					],
 					"readme": "README.md",
 					"license": "MIT",
@@ -36,11 +36,21 @@ export class RollupManifestBuilder {
 
 					"compatibility": {
 						"minimum": "11",
-						"verified": "11.300"
+						"verified": "11.300",
 					},
 
 					"esmodules": [
-						"module.js"
+						"module.js",
+					],
+					"styles": [
+						"css/module.css",
+					],
+					"languages": [
+						{
+							"lang": "en",
+							"name": "English",
+							"path": "lang/en.json",
+						},
 					],
 					"packs": [
 						{
@@ -69,7 +79,7 @@ export class RollupManifestBuilder {
 							"label": "Talents",
 							"system": "wfrp4e",
 							"path": "packs/talents",
-							"type": "Item"
+							"type": "Item",
 						},
 						{
 							"name": "trappings",
@@ -93,7 +103,7 @@ export class RollupManifestBuilder {
 							},
 						],
 					},
-				}
+				};
 
 				fs.mkdirSync(systemPath, {recursive: true});
 				fs.writeFileSync(path.join(systemPath, "module.json"), JSON.stringify(manifestJson, null, "\t"), "utf-8");

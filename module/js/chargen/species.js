@@ -81,5 +81,6 @@ export class SpeciesStageMod {
 	static async _onHookReady_pCheckAddCareerTable () {
 		if (!game.settings.get("wfrp4e-core", "initialized")) return;
 		// TODO read file create table
+		console.log("TODO create table here");
 	}
 }
