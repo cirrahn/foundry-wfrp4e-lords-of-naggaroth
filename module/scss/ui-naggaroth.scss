@@ -272,4 +272,29 @@
 		border-image-width: 19px 21px 21px 21px;
 		border-image-outset: 0px;
 	}
+	.app.window-app .window-header .import {
+		background: url(../ui/buttons/button-import.webp);
+	}
+	.app.window-app .window-header .post {
+		background: url(../ui/buttons/button-post.webp);
+	}
+	.app.window-app .window-header .share-image {
+		background: url(../ui/buttons/button-show-players.webp);
+	}
+	.journal-sheet .directory .directory-header .action-button {
+		background: url(../ui/buttons/combat-button-background.webp);
+		background-position: 0px -2px;
+		background-repeat: no-repeat;
+	}
+	#sidebar #settings button {
+		border-image: url(../ui/footer-button.webp) 10 repeat;
+		border-image-width: 4px;
+		border-image-outset: 0px;
+		background: url(../ui/sidebar_button-background_red.webp) repeat;
+		background-origin: padding-box;
+	}
+	.app.window-app .window-header .window-title {
+		border: none;
+		box-shadow: none;
+	}
 }
