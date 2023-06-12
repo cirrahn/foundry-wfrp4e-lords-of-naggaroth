@@ -259,4 +259,17 @@
 		position: relative;
 		right: 10px;
 	}
+	.app.window-app .window-content {
+		border-width: 10px;
+		border-image: url(../ui/window-app-dialog-content.webp) 5 repeat;
+		border-image-slice: 10 13 13 13;
+		border-image-width: 10px 13px 13px 13px;
+		border-image-outset: 0px;
+	}
+	.app.window-app .window-header {
+		border-image: url(../ui/frames/window-app-header-blank.webp) 5 repeat;
+		border-image-slice: 19 21 19 21 fill;
+		border-image-width: 19px 21px 21px 21px;
+		border-image-outset: 0px;
+	}
 }
