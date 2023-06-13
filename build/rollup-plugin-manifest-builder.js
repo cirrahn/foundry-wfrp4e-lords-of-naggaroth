@@ -117,6 +117,13 @@ export class RollupManifestBuilder {
 							},
 						],
 					},
+
+					"flags": {
+						"initializationPacks": [
+							`${packageJson.name}.journal-entries`,
+							`${packageJson.name}.tables`,
+						],
+					},
 				};
 
 				fs.mkdirSync(systemPath, {recursive: true});

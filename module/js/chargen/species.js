@@ -4,7 +4,6 @@ export class SpeciesStageMod {
 	static onHookReady () {
 		this._onHookReady_config();
 		this._onHookReady_patchSpeciesStage();
-		this._onHookReady_pCheckAddCareerTable().then(null); // TODO(Future) better solution to loading content
 	}
 
 	static _onHookReady_config () {
@@ -76,11 +75,5 @@ export class SpeciesStageMod {
 			},
 			Consts.LW_WRAPPER,
 		);
-	}
-
-	static async _onHookReady_pCheckAddCareerTable () {
-		if (!game.settings.get("wfrp4e-core", "initialized")) return;
-		// TODO read file create table
-		console.log("TODO create table here");
 	}
 }

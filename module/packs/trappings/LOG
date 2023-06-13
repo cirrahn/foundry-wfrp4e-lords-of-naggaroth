@@ -1,18 +1,8 @@
-2023/06/12-17:14:31.032 103f0 Recovering log #39
-2023/06/12-17:14:31.032 103f0 Recovering log #43
-2023/06/12-17:14:31.034 103f0 Delete type=0 #39
-2023/06/12-17:14:31.034 103f0 Delete type=0 #43
-2023/06/12-17:14:31.034 103f0 Delete type=2 #45
-2023/06/12-17:14:31.034 103f0 Delete type=3 #37
-2023/06/12-17:26:51.240 f304 Level-0 table #46: started
-2023/06/12-17:26:51.240 f304 Level-0 table #46: 10251 bytes OK
-2023/06/12-17:26:51.241 f304 Delete type=0 #44
-2023/06/12-17:26:51.241 f304 Manual compaction at level-0 from '!items!1FrVGin7UFcMzhUO' @ 72057594037927935 : 1 .. '!items!ywS1SXx9aj3KW3nZ' @ 0 : 0; will stop at (end)
-2023/06/12-17:26:51.241 f304 Manual compaction at level-1 from '!items!1FrVGin7UFcMzhUO' @ 72057594037927935 : 1 .. '!items!ywS1SXx9aj3KW3nZ' @ 0 : 0; will stop at '!items!x0yQyMbcI8APzNuI' @ 145 : 1
-2023/06/12-17:26:51.241 f304 Compacting 1@1 + 1@2 files
-2023/06/12-17:26:51.243 f304 Generated table #47@1: 13 keys, 10742 bytes
-2023/06/12-17:26:51.244 f304 Compacted 1@1 + 1@2 files => 10742 bytes
-2023/06/12-17:26:51.244 f304 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/06/12-17:26:51.244 f304 Delete type=2 #36
-2023/06/12-17:26:51.244 f304 Delete type=2 #46
-2023/06/12-17:26:51.244 f304 Manual compaction at level-1 from '!items!x0yQyMbcI8APzNuI' @ 145 : 1 .. '!items!ywS1SXx9aj3KW3nZ' @ 0 : 0; will stop at (end)
+2023/06/13-22:34:09.602 8608 Recovering log #57
+2023/06/13-22:34:09.604 8608 Delete type=0 #57
+2023/06/13-22:34:09.604 8608 Delete type=3 #48
+2023/06/13-22:40:41.249 12b78 Level-0 table #62: started
+2023/06/13-22:40:41.249 12b78 Level-0 table #62: 0 bytes OK
+2023/06/13-22:40:41.249 12b78 Delete type=0 #60
+2023/06/13-22:40:41.250 12b78 Manual compaction at level-0 from '!items!1FrVGin7UFcMzhUO' @ 72057594037927935 : 1 .. '!items!ywS1SXx9aj3KW3nZ' @ 0 : 0; will stop at (end)
+2023/06/13-22:40:41.250 12b78 Manual compaction at level-1 from '!items!1FrVGin7UFcMzhUO' @ 72057594037927935 : 1 .. '!items!ywS1SXx9aj3KW3nZ' @ 0 : 0; will stop at (end)

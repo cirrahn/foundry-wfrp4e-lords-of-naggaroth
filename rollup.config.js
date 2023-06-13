@@ -30,6 +30,7 @@ export default cliArgs => {
 					cliArgs.configPacks ? {src: "module/packs/*", dest: path.join(systemPath, "packs")} : null,
 					{src: "module/scss/*", dest: path.join(systemPath, "scss")},
 					{src: "module/ui/*", dest: path.join(systemPath, "ui")},
+					{src: "module/initialization.json", dest: systemPath},
 				].filter(Boolean),
 			}),
 			(cliArgs.configPacks || process.env.NODE_ENV === "production")
@@ -39,6 +40,7 @@ export default cliArgs => {
 					dir: path.join(process.cwd(), "module"),
 					include: [
 						/module\/(art|data|icons|lang|scss|ui)(\/.*)?/,
+						/module\/(initialization\.json)/,
 					],
 				}),
 		].filter(Boolean),

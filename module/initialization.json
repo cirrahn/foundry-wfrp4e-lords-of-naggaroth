@@ -1,0 +1,48 @@
+[
+	{
+		"name": "Career Tables",
+		"type": "RollTable",
+		"sorting": "a",
+		"flags": {
+			"wfrp4e-lords-of-naggaroth": {
+				"initialization-parent": "Lords of Naggaroth"
+			}
+		},
+		"folder": "nWDuOooHeFkKew13"
+	},
+	{
+		"name": "Character Creation",
+		"type": "RollTable",
+		"sorting": "a",
+		"flags": {
+			"wfrp4e-lords-of-naggaroth": {
+				"initialization-parent": "Lords of Naggaroth"
+			}
+		},
+		"folder": "nWDuOooHeFkKew13"
+	},
+	{
+		"name": "Lords of Naggaroth",
+		"sorting": "a",
+		"type": "JournalEntry",
+		"color": "#624a6d"
+	},
+	{
+		"name": "Lords of Naggaroth",
+		"type": "RollTable",
+		"sorting": "a",
+		"color": "#624a6d",
+		"_id": "nWDuOooHeFkKew13"
+	},
+	{
+		"name": "Corruption & Mutation Tables",
+		"type": "RollTable",
+		"sorting": "a",
+		"flags": {
+			"wfrp4e-lords-of-naggaroth": {
+				"initialization-parent": "Lords of Naggaroth"
+			}
+		},
+		"folder": "nWDuOooHeFkKew13"
+	}
+]

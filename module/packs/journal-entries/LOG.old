@@ -1,8 +1,17 @@
-2023/06/13-19:27:43.247 2970 Recovering log #22
-2023/06/13-19:27:43.249 2970 Delete type=0 #22
-2023/06/13-19:27:43.249 2970 Delete type=3 #20
-2023/06/13-19:27:56.032 4210 Level-0 table #27: started
-2023/06/13-19:27:56.032 4210 Level-0 table #27: 0 bytes OK
-2023/06/13-19:27:56.033 4210 Delete type=0 #25
-2023/06/13-19:27:56.034 4210 Manual compaction at level-0 from '!journal!ZDjfja1l01s997pq' @ 72057594037927935 : 1 .. '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 0 : 0; will stop at (end)
-2023/06/13-19:27:56.034 4210 Manual compaction at level-1 from '!journal!ZDjfja1l01s997pq' @ 72057594037927935 : 1 .. '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 0 : 0; will stop at (end)
+2023/06/13-21:39:25.595 ff34 Recovering log #34
+2023/06/13-21:39:25.595 ff34 Recovering log #38
+2023/06/13-21:39:25.597 ff34 Delete type=0 #34
+2023/06/13-21:39:25.597 ff34 Delete type=0 #38
+2023/06/13-21:39:25.597 ff34 Delete type=3 #28
+2023/06/13-22:33:51.359 11074 Level-0 table #41: started
+2023/06/13-22:33:51.360 11074 Level-0 table #41: 657 bytes OK
+2023/06/13-22:33:51.360 11074 Delete type=0 #39
+2023/06/13-22:33:51.362 11074 Manual compaction at level-0 from '!journal!ZDjfja1l01s997pq' @ 72057594037927935 : 1 .. '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 0 : 0; will stop at (end)
+2023/06/13-22:33:51.362 11074 Manual compaction at level-1 from '!journal!ZDjfja1l01s997pq' @ 72057594037927935 : 1 .. '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 0 : 0; will stop at '!journal!ZDjfja1l01s997pq' @ 53 : 1
+2023/06/13-22:33:51.363 11074 Compacting 1@1 + 1@2 files
+2023/06/13-22:33:51.364 11074 Generated table #42@1: 5 keys, 13674 bytes
+2023/06/13-22:33:51.364 11074 Compacted 1@1 + 1@2 files => 13674 bytes
+2023/06/13-22:33:51.364 11074 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/06/13-22:33:51.364 11074 Delete type=2 #36
+2023/06/13-22:33:51.364 11074 Delete type=2 #41
+2023/06/13-22:33:51.367 11074 Manual compaction at level-1 from '!journal!ZDjfja1l01s997pq' @ 53 : 1 .. '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 0 : 0; will stop at (end)
