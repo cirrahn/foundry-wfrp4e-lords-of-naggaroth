@@ -88,6 +88,13 @@ export class RollupManifestBuilder {
 							"path": "packs/trappings",
 							"type": "Item",
 						},
+						{
+							"name": "tables",
+							"label": "Tables (Lords of Naggaroth)",
+							"system": "wfrp4e",
+							"path": "packs/tables",
+							"type": "RollTable",
+						},
 					],
 
 					"relationships": {
