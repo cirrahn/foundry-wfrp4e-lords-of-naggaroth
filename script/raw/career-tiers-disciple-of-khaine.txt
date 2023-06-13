@@ -1,6 +1,6 @@
 Tier 1: Initiate – Brass 5
-Skills: Channeling (Khainite Sorcery), Cool, Dodge, Intuition, Lore (Theology), Melee (Any), Speak Language (Magick), Pray
-Talents: Aethyric Attunement, Holy Visions, Strike Mighty Blow, Strong Minded
+Skills: Channelling (Khainite Sorcery), Cool, Dodge, Intuition, Lore (Theology), Melee (Any), Language (Magick), Pray
+Talents: Aethyric Attunement, Holy Visions, Strike Mighty Blow, Strong-Minded
 Trappings: Sacrificial dagger, Bladed hand weapon, cult robes, Grimoire of Khainite Sorcery
 
 Tier 2: Disciple of Khaine – Silver 2
