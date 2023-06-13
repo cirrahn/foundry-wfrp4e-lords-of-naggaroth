@@ -95,6 +95,13 @@ export class RollupManifestBuilder {
 							"path": "packs/tables",
 							"type": "RollTable",
 						},
+						{
+							"name": "skills",
+							"label": "Skills",
+							"system": "wfrp4e",
+							"path": "packs/skills",
+							"type": "Item",
+						},
 					],
 
 					"relationships": {

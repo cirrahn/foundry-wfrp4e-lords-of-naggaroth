@@ -1,8 +1,17 @@
-2023/06/13-19:27:43.247 2970 Recovering log #22
-2023/06/13-19:27:43.249 2970 Delete type=0 #22
-2023/06/13-19:27:43.249 2970 Delete type=3 #20
-2023/06/13-19:27:56.032 4210 Level-0 table #27: started
-2023/06/13-19:27:56.032 4210 Level-0 table #27: 0 bytes OK
-2023/06/13-19:27:56.033 4210 Delete type=0 #25
-2023/06/13-19:27:56.034 4210 Manual compaction at level-0 from '!journal!ZDjfja1l01s997pq' @ 72057594037927935 : 1 .. '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 0 : 0; will stop at (end)
-2023/06/13-19:27:56.034 4210 Manual compaction at level-1 from '!journal!ZDjfja1l01s997pq' @ 72057594037927935 : 1 .. '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 0 : 0; will stop at (end)
+2023/06/13-21:28:53.835 10b98 Recovering log #26
+2023/06/13-21:28:53.835 10b98 Recovering log #32
+2023/06/13-21:28:53.837 10b98 Delete type=0 #26
+2023/06/13-21:28:53.838 10b98 Delete type=0 #32
+2023/06/13-21:28:53.838 10b98 Delete type=3 #24
+2023/06/13-21:35:28.874 117d8 Level-0 table #35: started
+2023/06/13-21:35:28.875 117d8 Level-0 table #35: 27054 bytes OK
+2023/06/13-21:35:28.875 117d8 Delete type=0 #33
+2023/06/13-21:35:28.875 117d8 Manual compaction at level-0 from '!journal!ZDjfja1l01s997pq' @ 72057594037927935 : 1 .. '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 0 : 0; will stop at (end)
+2023/06/13-21:35:28.875 117d8 Manual compaction at level-1 from '!journal!ZDjfja1l01s997pq' @ 72057594037927935 : 1 .. '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 0 : 0; will stop at '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 37 : 1
+2023/06/13-21:35:28.876 117d8 Compacting 1@1 + 1@2 files
+2023/06/13-21:35:28.877 117d8 Generated table #36@1: 5 keys, 13564 bytes
+2023/06/13-21:35:28.877 117d8 Compacted 1@1 + 1@2 files => 13564 bytes
+2023/06/13-21:35:28.877 117d8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/06/13-21:35:28.877 117d8 Delete type=2 #23
+2023/06/13-21:35:28.877 117d8 Delete type=2 #35
+2023/06/13-21:35:28.879 117d8 Manual compaction at level-1 from '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 37 : 1 .. '!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R' @ 0 : 0; will stop at (end)

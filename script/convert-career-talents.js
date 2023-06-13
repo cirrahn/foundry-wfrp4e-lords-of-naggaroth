@@ -5,7 +5,6 @@
 	const SYMBOLS = ["✠", "♟", "♜", "♛"];
 
 	const ipt = window.prompt("Enter tiers text");
-
 	const chunks = ipt
 		.trim()
 		.replace(/\r/g, "")
@@ -13,14 +12,33 @@
 	if (chunks.length !== 4) throw new Error(`Expected 4 tiers!`);
 
 	const packIndexSkillsCore = await game.packs.get("wfrp4e-core.skills").getIndex();
+	const packIndexSkillsNaggaroth = await game.packs.get("wfrp4e-lords-of-naggaroth.skills").getIndex();
 	const packIndexTalentsCore = await game.packs.get("wfrp4e-core.talents").getIndex();
 	const packIndexTalentsNaggaroth = await game.packs.get("wfrp4e-lords-of-naggaroth.talents").getIndex();
 
-	const getLookupName = str => {
+	const getLookupName = (str, {isStrict = true} = {}) => {
 		return str
-			.replace(/\([^)]*\)/g, "")
+			.replace(
+				isStrict
+					? /\((?:Any(?: [^)]+)?|\s*)?\)/g
+					: /\([^)]*\)/g, "",
+			)
 			.trim()
 			.toLowerCase();
+	};
+
+	const getPackIndexDoc = (str, pack) => {
+		const lookupStrict = getLookupName(str);
+		const fromStrict = pack
+			.find(pk => getLookupName(pk.name) === lookupStrict);
+		if (fromStrict) return {indexDoc: fromStrict, isStrict: true};
+
+		const lookup = getLookupName(str, {isStrict: false});
+		const fromNonStrict = pack
+			.find(pk => getLookupName(pk.name, {isStrict: false}) === lookup);
+		if (fromNonStrict) return {indexDoc: fromNonStrict, isStrict: false};
+
+		return null;
 	};
 
 	const pts = chunks
@@ -48,14 +66,16 @@
 				.map(it => it.trim())
 				.filter(Boolean)
 				.map(it => {
-					const lookup = getLookupName(it);
+					const fromPacks = [
+						getPackIndexDoc(it, packIndexSkillsNaggaroth),
+						getPackIndexDoc(it, packIndexSkillsCore),
+					];
+					const fromPack = fromPacks.find(it => it?.isStrict) || fromPacks.find(Boolean);
+					if (!fromPack) throw new Error(`Could not find skill "${it}"`);
 
-					const fromPack = packIndexSkillsCore
-						.find(pk => getLookupName(pk.name));
+					if (!fromPack.isStrict) console.warn(`Could not find strict match for skill: ${it} (using "${fromPack.indexDoc.name}")`);
 
-					if (!fromPack) throw new Error(`Could not find skill "${it}" ("${lookup}")`);
-
-					return `@UUID[${fromPack.uuid}]{${it}}`;
+					return `@UUID[${fromPack.indexDoc.uuid}]{${it}}`;
 				});
 
 			const talentLinks = rawTalents
@@ -65,14 +85,14 @@
 				.map(it => it.trim())
 				.filter(Boolean)
 				.map(it => {
-					const lookup = getLookupName(it);
+					const fromPacks = [
+						getPackIndexDoc(it, packIndexTalentsNaggaroth),
+						getPackIndexDoc(it, packIndexTalentsCore),
+					];
+					const fromPack = fromPacks.find(it => it?.isStrict) || fromPacks.find(Boolean);
+					if (!fromPack) throw new Error(`Could not find talent "${it}"`);
 
-					const fromPack = packIndexTalentsCore.find(pk => getLookupName(pk.name))
-						|| packIndexTalentsNaggaroth.find(pk => getLookupName(pk.name));
-
-					if (!fromPack) throw new Error(`Could not find talent "${it}" ("${lookup}")`);
-
-					return `@UUID[${fromPack.uuid}]{${it}}`;
+					return `@UUID[${fromPack.indexDoc.uuid}]{${it}}`;
 				});
 
 			return `
@@ -95,8 +115,6 @@
 </p>`;
 		});
 
-	const out = pts.join(`\n\n<br><br>\n\n`);
-	console.log(out);
-	copy(out);
+	copy(pts.join(`\n\n<br><br>\n\n`));
 	console.warn("Copied to clipboard!");
 })();

@@ -1,5 +1,5 @@
 Tier 1: Apprentice Sorceress – Silver 2
-Skills: Channeling (Any Lore), Dodge, Intuition, Language (Magick), Lore (Magic), Melee (Basic), Melee (Polearm), Perception
+Skills: Channelling (Any Lore), Dodge, Intuition, Language (Magick), Lore (Magick), Melee (Basic), Melee (Polearm), Perception
 Talents: Aethyric Attunement, Power of Darkness, Read/Write, Second Sight, Petty Magic
 Trappings: Ambition, Grimoire of Dark Magic, Ritual Dagger, Staff
 
