@@ -10,6 +10,10 @@
 		border-image-outset: 22px 17px 16px 14px;
 	}
 
+	#hotbar {
+		width: 618px;
+	}
+
 	#hotbar #action-bar #macro-list {
 		background: url("../ui/frames/hotkeybox-macro-list.webp");
 	}
@@ -259,42 +263,50 @@
 		position: relative;
 		right: 10px;
 	}
+
 	.app.window-app .window-content {
 		border-width: 10px;
-		border-image: url(../ui/window-app-dialog-content.webp) 5 repeat;
+		border-image: url("../ui/window-app-dialog-content.webp") 5 repeat;
 		border-image-slice: 10 13 13 13;
 		border-image-width: 10px 13px 13px 13px;
-		border-image-outset: 0px;
+		border-image-outset: 0;
 	}
+
 	.app.window-app .window-header {
-		border-image: url(../ui/frames/window-app-header-blank.webp) 5 repeat;
+		border-image: url("../ui/frames/window-app-header-blank.webp") 5 repeat;
 		border-image-slice: 19 21 19 21 fill;
 		border-image-width: 19px 21px 21px 21px;
-		border-image-outset: 0px;
+		border-image-outset: 0;
 	}
+
 	.app.window-app .window-header .import {
-		background: url(../ui/buttons/button-import.webp);
+		background: url("../ui/buttons/button-import.webp");
 	}
+
 	.app.window-app .window-header .post {
-		background: url(../ui/buttons/button-post.webp);
+		background: url("../ui/buttons/button-post.webp");
 	}
+
 	.app.window-app .window-header .share-image {
-		background: url(../ui/buttons/button-show-players.webp);
+		background: url("../ui/buttons/button-show-players.webp");
 	}
+
 	.journal-sheet .directory .directory-header .action-button {
-		background: url(../ui/buttons/combat-button-background.webp);
-		background-position: 0px -2px;
+		background: url("../ui/buttons/combat-button-background.webp");
+		background-position: 0 -2px;
 		background-repeat: no-repeat;
 	}
+
 	#sidebar #settings button {
-		border-image: url(../ui/footer-button.webp) 10 repeat;
+		border-image: url("../ui/footer-button.webp") 10 repeat;
 		border-image-width: 4px;
-		border-image-outset: 0px;
-		background: url(../ui/sidebar_button-background_red.webp) repeat;
+		border-image-outset: 0;
+		background: url("../ui/sidebar_button-background_red.webp") repeat;
 		background-origin: padding-box;
 	}
+
 	.app.window-app .window-header .window-title {
-		border: none;
+		border: 0;
 		box-shadow: none;
 	}
 }

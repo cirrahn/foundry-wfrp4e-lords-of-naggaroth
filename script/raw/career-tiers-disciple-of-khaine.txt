@@ -1,0 +1,19 @@
+Tier 1: Initiate – Brass 5
+Skills: Channeling (Khainite Sorcery), Cool, Dodge, Intuition, Lore (Theology), Melee (Any), Speak Language (Magick), Pray
+Talents: Aethyric Attunement, Holy Visions, Strike Mighty Blow, Strong Minded
+Trappings: Sacrificial dagger, Bladed hand weapon, cult robes, Grimoire of Khainite Sorcery
+
+Tier 2: Disciple of Khaine – Silver 2
+Skills: Athletics, Charm, Lore (Torture), Intimidate, Secret Signs (Cult of Khaine), Perform (Torture)
+Talents: Arcane Magic (Khainite Sorcery), Menacing, Impassioned Zeal, War Wizard
+Trappings: Sacred vestments, Fighting Spines, Flesh Hooks, Torturers tools
+
+Tier 3: Anointed – Silver 3
+Skills: Climb, Endurance, Perception, Stealth (Any)
+Talents: Furious Assault, Frightening, Strike to Injure, Seasoned Traveller
+Trappings: Robes of Murder, Copy of the Parables of Sundered Flesh
+
+Tier 4: Bloody Handed – Silver 5
+Skills: Leadership, Melee (Any)
+Talents: Combat Master, Fearless (Any), Instinctive Diction, Stout-hearted
+Trappings: Draich, Mask of Khaines Aspect

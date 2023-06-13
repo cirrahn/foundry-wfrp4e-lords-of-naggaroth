@@ -10,7 +10,7 @@
 		"release": "cross-env NODE_ENV=production rollup --config rollup.config.js ",
 		"test": "npm run test:js && npm run test:css",
 		"lint": "npm run lint:js && npm run lint:css",
-		"test:js": "eslint module/js foundry-path.js rollup.config.js build",
+		"test:js": "eslint module/js foundry-path.js rollup.config.js build script",
 		"lint:js": "npm run test:js -- --fix",
 		"test:css": "stylelint module/scss/*.scss",
 		"lint:css": "npm run test:css -- --fix"

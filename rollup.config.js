@@ -23,6 +23,7 @@ export default cliArgs => {
 			scss({fileName: "css/module.css"}),
 			copy({
 				targets: [
+					{src: "module/art/*", dest: path.join(systemPath, "art")},
 					{src: "module/data/*", dest: path.join(systemPath, "data")},
 					{src: "module/icons/*", dest: path.join(systemPath, "icons")},
 					{src: "module/lang/*", dest: path.join(systemPath, "lang")},
@@ -37,7 +38,7 @@ export default cliArgs => {
 				: watch({
 					dir: path.join(process.cwd(), "module"),
 					include: [
-						/module\/(data|icons|lang|scss|ui)(\/.*)?/,
+						/module\/(art|data|icons|lang|scss|ui)(\/.*)?/,
 					],
 				}),
 		].filter(Boolean),

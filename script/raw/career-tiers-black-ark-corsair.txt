@@ -1,0 +1,19 @@
+Tier 1: Raider – Silver 1
+Skills: Climb, Consume Alcohol, Dodge, Endurance, Row, Melee (Basic), Sail, Swim
+Talents: Combat Aware, Seasoned Traveler, Strong Swimmer, Strider (Coastal)
+Trappings: Black Ark Sabre, Dagger
+
+Tier 2: Corsair – Silver 3
+Skills: Athletics, Cool, Gamble, Intimidate, Intuition, Lore (Torture)
+Talents: Menacing, Sea Legs, Stout hearted, Old Salt
+Trappings: Sea Dragon Cloak, boarding hooks and rope, knucklebone dice
+
+Tier 3: Reaver – Silver 6
+Skills: Evaluate, Ranged (Crossbow), Perception, Language (Any), Leadership
+Talents: Ambidextrous, Fast Shot, Robust, Pilot
+Trappings: Repeating Handbow with 10 bolts, landing party of bloodthirsty Corsairs
+
+Tier 4: Corsair Captain – Gold 3
+Skills: Charm, Navigation
+Talents: Frightening, Feint, Inspiring, Strong-minded
+Trappings: Druchii corsair ship and a villainous corsair crew, Parrot Lizard-hawk, Reaving charts, eye-patch, spy glass

@@ -1,0 +1,19 @@
+Tier 1: Apprentice Sorceress – Silver 2
+Skills: Channeling (Any Lore), Dodge, Intuition, Language (Magick), Lore (Magic), Melee (Basic), Melee (Polearm), Perception
+Talents: Aethyric Attunement, Power of Darkness, Read/Write, Second Sight, Petty Magic
+Trappings: Ambition, Grimoire of Dark Magic, Ritual Dagger, Staff
+
+Tier 2: Sorceress – Silver 7
+Skills: Charm, Cool, Gossip, Intimidate, Lore (Daemonology), Secret Signs (Convent of Sorceresses)
+Talents: Arcane Magic (Any Arcane Lore), Detect Artefact, Sixth Sense, Instinctive Diction
+Trappings: Lust for Power, Imp Familiar, Convent Vestments
+
+Tier 3: Hag Sorceress – Gold 3
+Skills: Evaluate, Lore (Any), Language (Dark Tongue), Ride (Horse or Cold One)
+Talents: Attractive, Magical Sense, Menacing, War Wizard
+Trappings: Apprentice, Power overwhelming, Multiple familiars, Magical item
+
+Tier 4: High Sorceress – Gold 7
+Skills: Ride (Dark Pegasus), Research
+Talents: Cat-tongued, Frightening, Iron Will, Schemer
+Trappings: Sorcery supreme, enslaved spirits of evil, Apprentice, Dread Sanctum

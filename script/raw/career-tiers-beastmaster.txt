@@ -1,0 +1,19 @@
+Tier 1: Apprentice Beastmaster – Silver 1
+Skills: Animal Care (Any), Animal Training (Any), Charm Animal, Endurance, Melee (Basic), Ranged (Entangling), Outdoor Survival, Perception
+Talents: Ambidextrous, Sixth Sense, Strike to Stun, Hardy
+Trappings: Beast Goad (Hand weapon), Whip, Trainee Lizard-hawk, Desire to be the very best
+
+Tier 2: Beastmaster – Silver 3
+Skills: Athletics, Cool, Intimidate, Lore (Beasts), Set Trap, Track
+Talents: Animal Affinity, Menacing, Strider (Any), Stout-hearted
+Trappings: Pair of trained Beasts, Scars from fangs and claws, Beast hide (Leather jerkin)
+
+Tier 3: Beastslaver – Silver 5
+Skills: Drive, Haggle, Ranged (Crossbow), Stealth (Rural)
+Talents: Fearless (Monsters), Robust, Crack the Whip or Rover, Sure Shot
+Trappings: Scourgerunner Chariot, Ravager Harpoon and 6 Barbed Bolts, Net, Assistant Beastmaster
+
+Tier 4: High Beastmaster – Gold 1
+Skills: Ride (Any), Intuition
+Talents: Frightening, Strike Mighty Blow, Strong-minded, Tenacious
+Trappings: Trained monster (typically a Manticore or War-Hydra in Naggaroth), Apprentice Beastmaster
