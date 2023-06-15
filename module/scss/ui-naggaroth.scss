@@ -309,4 +309,15 @@
 		border: 0;
 		box-shadow: none;
 	}
+
+	.header-search .fa-search {
+		width: unset;
+		height: unset;
+		background: none;
+		color: var(--color-text-light-highlight);
+	}
+
+	.directory .directory-header .header-control {
+		left: 0;
+	}
 }
