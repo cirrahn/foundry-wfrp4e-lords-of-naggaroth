@@ -116,6 +116,14 @@ export class RollupManifestBuilder {
 								"manifest": "https://github.com/moo-man/WFRP4e-FoundryVTT/releases/latest/download/system.json",
 							},
 						],
+
+						"recommends": [
+							{
+								"id": "wfrp4e-core",
+								"type": "module",
+								"reason": "Provides core game content",
+							},
+						],
 					},
 
 					"flags": {
