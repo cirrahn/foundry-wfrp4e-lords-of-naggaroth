@@ -320,4 +320,59 @@
 	.directory .directory-header .header-control {
 		left: 0;
 	}
+	.tabs .item:hover {
+		text-shadow: 0 0 10px #a600ff
+	}
+	a:hover {
+		text-shadow: 0px 0px 8px #a600ff !important;
+	}
+	button:hover {
+		box-shadow: 0 0 5px #a600ff !important;
+	}
+	input[type="password"]:focus {
+		box-shadow: 0 0 5px #a600ff;
+		outline: none;
+	}
+	.combat-sidebar #combat-controls a:hover {
+		box-shadow: 0 0 5px #a600ff !important;
+	}
+	.dialog .dialog-buttons button.default:focus
+	{
+		box-shadow: 0 0 5px #a600ff !important;
+	}
+	.token-sheet .sheet-tabs .item:hover {
+		box-shadow: 0 0 8px #a600ff !important;
+	}
+	#drawing-config .sheet-tabs .item:hover {
+		box-shadow: 0 0 8px #a600ff !important;
+	}
+	.item-dialog .directory .directory-item.active {
+		box-shadow: 0 0 8px #a600ff inset;
+	}
+	#client-settings .sheet-tabs .item:hover {
+		box-shadow: 0 0 8px #a600ff !important;
+	}
+	.wfrp4e.table-sheet .tabs .item:hover {
+		box-shadow: 0 0 8px #a600ff !important;
+	}
+	.wfrp4e.table-sheet .table-contents .table-row .row-label:hover {
+		text-shadow: 0 0 8px #a600ff !important;
+	}
+	#career-selector .career-tier:hover {
+		text-shadow: 0 0 8px #a600ff !important;
+		cursor: pointer;
+	}
+	#career-selector .career-tier.active {
+		box-shadow: inset 0px 0px 3px 3px #a600ff;
+	}
+	#av-config .sheet-tabs .item:hover {
+		box-shadow: 0 0 8px #a600ff !important;
+	}
+	.forien-quest-preview nav .item:hover{
+		box-shadow: 0 0 8px #a600ff !important;
+	}
+	.simple-calendar.classic .fsc-e .fsc-m .fsc-n .fsc-o:hover {
+		background-color: unset;
+		box-shadow: 0 0 8px #a600ff !important;
+	}
 }
