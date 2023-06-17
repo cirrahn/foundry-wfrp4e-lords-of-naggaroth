@@ -524,4 +524,8 @@
 		background: url(../ui/sidebar_button-background_red.webp) repeat;
 		background-origin: padding-box;
 	}
+	#module-management .window-content {
+		overflow: auto;
+		background: url(../ui/frames/window-app-background-bookshelf.webp);
+	}
 }
