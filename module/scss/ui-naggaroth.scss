@@ -375,4 +375,128 @@
 		background-color: unset;
 		box-shadow: 0 0 8px #a600ff !important;
 	}
+
+	#module-management .window-content .modules-list .module header input[type="checkbox"] {
+		background: #241635;
+	}
+	#homebrew-settings .window-content form .form-group select,
+	#client-settings .window-content form .form-group select {
+		background: #241635;
+	}
+	.system-wfrp4e .dice-so-nice .sfxs-list input{
+		background: #241635;
+	}
+	.system-wfrp4e .dice-so-nice .sfxs-list select {
+		background: #241635;
+	}
+	.token-sheet .detection-modes select,
+	.token-sheet .detection-modes input,
+	#module-management .list-filters input,
+	.app.window-app .form-group input {
+		background: #241635;
+	}
+	.app.window-app .form-group select {
+		background: #241635;
+	}
+	.active-effect-sheet .effect-change input{
+		background: #241635;
+	}
+	.active-effect-sheet .effect-change select {
+		background: #241635;
+	}
+	.token-sheet .tab[data-tab="image"] .form-group .range-value {
+		background: #241635;
+	}
+	.token-sheet .tab[data-tab="resources"] .form-group .bar1-value {
+		background: #241635;
+	}
+	.token-sheet .tab[data-tab="resources"] .form-group .bar2-value {
+		background: #241635;
+	}
+	.token-sheet .tab[data-tab="resources"] .form-group .sep {
+		background: #241635;
+	}
+	#drawing-config .tab[data-tab="image"] .form-group .scale-value {
+		background: #241635;
+	}
+	#drawing-config .tab[data-tab="resources"] .form-group .bar1-value {
+		background: #241635;
+	}
+	#drawing-config .tab[data-tab="resources"] .form-group .bar2-value {
+		background: #241635;
+	}
+	#drawing-config .tab[data-tab="resources"] .form-group .sep {
+		background: #241635;
+	}
+	.result-range > input,
+	.result-weight > input,
+	.result-details > input
+	{
+		background: #241635;
+	}
+	.result-type > select,
+	.result-details > select {
+		background: #241635;
+	}
+	textarea,
+	.active-effect-sheet textarea,
+	.drawing-sheet textarea,
+	.macro-sheet textarea[name="command"] {
+		background: #241635;
+	}
+	#wfrp4e-browser select,
+	#wfrp4e-browser input {
+		background: #241635;
+	}
+	#wfrp4e-browser .item-filter.save-scroll div input[type="checkbox"] {
+		background: #241635;
+	}
+	.dd-import-text {
+		background: #241635;
+	}
+	#filter-config input[type="checkbox"],
+	#effects-config input[type="checkbox"] {
+		background: #241635;
+	}
+	#filter-config input,
+	#effects-config input {
+		background: #241635;
+	}
+	.app.window-app.dialog .form-group.import .file-picker {
+		background: #241635;
+	}
+	#stat-parser textarea {
+		background: #241635;
+	}
+	#calendar-settings .window-content form select,
+	#calendar-settings .window-content form input
+	{
+		background: #241635;
+	}
+	.calendar-form-container select {
+		background: #241635;
+	}
+	.calendar-form-container input {
+		background: #241635;
+	}
+	.calendar-form-container #calendar-form-cDay-input,
+	.calendar-form-container #calendar-form-year-input,
+	.calendar-form-container #calendar-form-era-input,
+	.calendar-form-container #calendar-form-minute-input,
+	.calendar-form-container #calendar-form-second-input,
+	.calendar-form-container #calendar-form-hour-input{
+		background-color: #241635 !important;
+	}
+	.gm-screen-grid-cell-header {
+		background: #241635 !important;
+	}
+	.simple-calendar.classic .fsc-mf .tabs .fsc-hb {
+		background: #241635;
+	}
+	.simple-calendar.classic .fsc-mf .tabs .fsc-nf .fsc-gb ul li.fsc-qf, .simple-calendar.classic .fsc-mf .tabs .fsc-nf .fsc-gb ul li:hover {
+		background: #241635;
+	}
+	.simple-calendar.classic .fsc-mf .tabs .fsc-nf .fsc-gb ul li {
+		background: #241635;
+	}
 }
