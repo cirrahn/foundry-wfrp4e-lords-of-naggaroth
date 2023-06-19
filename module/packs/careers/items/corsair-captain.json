@@ -1,0 +1,68 @@
+{
+	"name": "Corsair Captain",
+	"type": "career",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/corsair.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Black Ark Corsair"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Riverfolk"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "4"
+		},
+		"status": {
+			"tier": "g",
+			"standing": 3
+		},
+		"characteristics": [
+			"fel"
+		],
+		"skills": [
+			"Charm",
+			"Navigation"
+		],
+		"talents": [
+			"Frightening",
+			"Feint",
+			"Inspiring",
+			"Strong-minded"
+		],
+		"trappings": [
+			"Druchii corsair ship and a villainous corsair crew",
+			"Parrot Lizard-hawk",
+			"Reaving charts",
+			"eye-patch",
+			"spy glass"
+		],
+		"incomeSkill": []
+	},
+	"effects": [],
+	"folder": null,
+	"_id": "8gSSvZKx0ZaedT0y",
+	"_key": "!items!8gSSvZKx0ZaedT0y"
+}

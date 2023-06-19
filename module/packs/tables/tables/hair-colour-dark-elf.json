@@ -1,0 +1,33 @@
+{
+	"name": "Hair Colour - Dark Elf",
+	"img": "systems/wfrp4e/ui/buttons/d10.webp",
+	"results": [
+		"nCv4DmBAh6eQMzpT",
+		"0AlLC1opkHuvYm9F",
+		"Qq0reUe60n2kH4nj",
+		"HI3HtdSzxxo5ZHd8",
+		"bfFpZx4yZ93B7tKQ",
+		"Mss3hdMHf8zVXJdD",
+		"NyuG9cla5MAUhJ4f",
+		"jrN8CPuttwUrNSxI",
+		"SaQmYGnxsdoRMHEs",
+		"kSHXw1a1pLQweGM6"
+	],
+	"formula": "1d10",
+	"replacement": true,
+	"displayRoll": true,
+	"folder": null,
+	"flags": {
+		"wfrp4e": {
+			"key": "hair",
+			"column": "delf"
+		},
+		"wfrp4e-lords-of-naggaroth": {
+			"initialization-folder": "Character Creation",
+			"sort": 0
+		}
+	},
+	"description": "",
+	"_id": "rLqbkZtr3az6EFiz",
+	"_key": "!tables!rLqbkZtr3az6EFiz"
+}

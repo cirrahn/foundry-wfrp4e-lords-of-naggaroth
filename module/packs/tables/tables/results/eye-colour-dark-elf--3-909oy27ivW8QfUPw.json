@@ -1,0 +1,15 @@
+{
+	"_id": "909oy27ivW8QfUPw",
+	"type": 0,
+	"text": "Lapis",
+	"range": [
+		8,
+		11
+	],
+	"drawn": false,
+	"img": "icons/svg/d20-black.svg",
+	"documentCollection": "",
+	"documentId": null,
+	"weight": 1,
+	"_key": "!tables.results!kCQgOdJM75fWwLm3.909oy27ivW8QfUPw"
+}

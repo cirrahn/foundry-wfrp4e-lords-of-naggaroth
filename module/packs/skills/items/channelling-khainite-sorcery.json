@@ -1,0 +1,56 @@
+{
+	"name": "Channelling (Khainite Sorcery)",
+	"type": "skill",
+	"img": "modules/wfrp4e-core/icons/skills/adv-skill-wp.png",
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"_sheetTab": "description"
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"advanced": {
+			"value": "adv",
+			"type": "String"
+		},
+		"grouped": {
+			"value": "isSpec",
+			"type": "String"
+		},
+		"characteristic": {
+			"type": "String",
+			"label": "Characteristic",
+			"value": "wp"
+		},
+		"advances": {
+			"type": "Number",
+			"label": "Advances",
+			"value": 0,
+			"costModifier": 0,
+			"force": false
+		},
+		"modifier": {
+			"type": "Number",
+			"label": "Advances",
+			"value": 0
+		},
+		"total": {
+			"type": "Number",
+			"label": "Total"
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "3MbQF1W8U18ba9fb",
+	"_key": "!items!3MbQF1W8U18ba9fb"
+}

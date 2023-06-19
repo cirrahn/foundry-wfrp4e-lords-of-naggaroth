@@ -1,0 +1,41 @@
+{
+	"name": "Power of Darkness",
+	"type": "talent",
+	"_id": "iRVWIwzJitdP8DEv",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/talents/power_of_darkness.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"max": {
+			"type": "String",
+			"label": "Max Advances",
+			"value": "1"
+		},
+		"advances": {
+			"type": "Number",
+			"label": "Advances",
+			"value": 1,
+			"force": false
+		},
+		"career": {
+			"value": "",
+			"type": "String",
+			"label": "Career"
+		},
+		"tests": {
+			"type": "String",
+			"label": "Tests",
+			"value": ""
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"_key": "!items!iRVWIwzJitdP8DEv"
+}

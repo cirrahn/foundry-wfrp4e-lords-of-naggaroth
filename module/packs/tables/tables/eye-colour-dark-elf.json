@@ -1,0 +1,32 @@
+{
+	"name": "Eye Colour - Dark Elf",
+	"img": "systems/wfrp4e/ui/buttons/d10.webp",
+	"results": [
+		"ZYF4aKVwiVA79MuK",
+		"Pw9ZO8725RLZkI4x",
+		"1ojinsSueON8UPII",
+		"u2vyjGrdBj8LfRay",
+		"909oy27ivW8QfUPw",
+		"1iqPfO5TpyjN3DLB",
+		"BCU4dg9YaoHeF30Z",
+		"DJtuXDquIcPQ8iEO",
+		"371zkGnj4BKIegbN"
+	],
+	"formula": "2d10",
+	"replacement": true,
+	"displayRoll": true,
+	"folder": null,
+	"flags": {
+		"wfrp4e": {
+			"key": "eyes",
+			"column": "delf"
+		},
+		"wfrp4e-lords-of-naggaroth": {
+			"initialization-folder": "Character Creation",
+			"sort": 0
+		}
+	},
+	"description": "",
+	"_id": "kCQgOdJM75fWwLm3",
+	"_key": "!tables!kCQgOdJM75fWwLm3"
+}

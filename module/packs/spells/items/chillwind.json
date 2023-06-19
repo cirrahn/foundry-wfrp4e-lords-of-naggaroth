@@ -1,0 +1,101 @@
+{
+	"name": "Chillwind",
+	"type": "spell",
+	"_id": "Oo03xLl3USLmsnZa",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/spells/dark_magic.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"lore": {
+			"type": "String",
+			"label": "Lore",
+			"value": "Dark Magic",
+			"effectString": ""
+		},
+		"range": {
+			"type": "String",
+			"label": "Range",
+			"value": "Half Willpower Yards",
+			"vortex": false
+		},
+		"target": {
+			"type": "String",
+			"label": "Target",
+			"value": "(Special)",
+			"aoe": true
+		},
+		"duration": {
+			"type": "String",
+			"label": "Duration",
+			"value": "Instant",
+			"extendable": false
+		},
+		"damage": {
+			"type": "String",
+			"label": "Damage",
+			"dice": "",
+			"value": "9"
+		},
+		"cn": {
+			"type": "Number",
+			"label": "Casting Number",
+			"value": 6,
+			"SL": 0
+		},
+		"magicMissile": {
+			"type": "Boolean",
+			"label": "Magic Missile",
+			"value": true
+		},
+		"ritual": {
+			"value": false,
+			"type": "",
+			"xp": 0
+		},
+		"memorized": {
+			"type": "Boolean",
+			"label": "Memorized",
+			"value": false
+		},
+		"skill": {
+			"value": ""
+		},
+		"ingredients": [],
+		"currentIng": {
+			"type": "Number",
+			"label": "Ingredient",
+			"value": ""
+		},
+		"wind": {
+			"value": ""
+		},
+		"overcast": {
+			"enabled": false,
+			"label": "",
+			"valuePerOvercast": {
+				"type": "",
+				"value": 1,
+				"SL": false,
+				"characteristic": "",
+				"bonus": false
+			},
+			"initial": {
+				"type": "",
+				"value": 1,
+				"SL": false,
+				"characteristic": "",
+				"bonus": false
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"_key": "!items!Oo03xLl3USLmsnZa"
+}

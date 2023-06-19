@@ -1,0 +1,20 @@
+{
+	"name": "Sorceress of Ghrond",
+	"type": "text",
+	"_id": "1EVp7zJpLU5aDjNF",
+	"title": {
+		"show": true,
+		"level": 1
+	},
+	"image": {},
+	"text": {
+		"format": 1
+	},
+	"video": {
+		"controls": true,
+		"volume": 0.5
+	},
+	"src": null,
+	"system": {},
+	"_key": "!journal.pages!ZDjfja1l01s997pq.1EVp7zJpLU5aDjNF"
+}

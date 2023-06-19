@@ -1,0 +1,75 @@
+{
+	"name": "Raider",
+	"type": "career",
+	"_id": "yp0qaJlW2JjOk89c",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/corsair.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Black Ark Corsair"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Riverfolk"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "1"
+		},
+		"status": {
+			"tier": "s",
+			"standing": 1
+		},
+		"characteristics": [
+			"ws",
+			"s",
+			"i"
+		],
+		"skills": [
+			"Climb",
+			"Consume Alcohol",
+			"Dodge",
+			"Endurance",
+			"Row",
+			"Melee (Basic)",
+			"Sail",
+			"Swim"
+		],
+		"talents": [
+			"Combat Aware",
+			"Seasoned Traveller",
+			"Strong Swimmer",
+			"Strider (Coastal)"
+		],
+		"trappings": [
+			"Black Ark Sabre",
+			"Dagger"
+		],
+		"incomeSkill": [
+			5
+		]
+	},
+	"effects": [],
+	"folder": null,
+	"_key": "!items!yp0qaJlW2JjOk89c"
+}

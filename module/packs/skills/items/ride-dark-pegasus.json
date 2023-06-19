@@ -1,0 +1,56 @@
+{
+	"name": "Ride (Dark Pegasus)",
+	"type": "skill",
+	"img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"_sheetTab": "description"
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"advanced": {
+			"value": "bsc",
+			"type": "String"
+		},
+		"grouped": {
+			"value": "isSpec",
+			"type": "String"
+		},
+		"characteristic": {
+			"type": "String",
+			"label": "Characteristic",
+			"value": "ag"
+		},
+		"advances": {
+			"type": "Number",
+			"label": "Advances",
+			"value": 0,
+			"costModifier": 0,
+			"force": false
+		},
+		"modifier": {
+			"type": "Number",
+			"label": "Advances",
+			"value": 0
+		},
+		"total": {
+			"type": "Number",
+			"label": "Total"
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "NzmG8oghB65XqdDd",
+	"_key": "!items!NzmG8oghB65XqdDd"
+}

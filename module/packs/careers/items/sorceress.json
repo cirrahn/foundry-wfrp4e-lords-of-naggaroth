@@ -1,0 +1,71 @@
+{
+	"name": "Sorceress",
+	"type": "career",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/sorceress.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Sorceress of Ghrond"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Academics"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "2"
+		},
+		"status": {
+			"tier": "s",
+			"standing": 7
+		},
+		"characteristics": [
+			"ag"
+		],
+		"skills": [
+			"Charm",
+			"Cool",
+			"Gossip",
+			"Intimidate",
+			"Lore (Daemonology)",
+			"Secret Signs (Convent of Sorceresses)"
+		],
+		"talents": [
+			"Arcane Magic (Any Arcane Lore)",
+			"Detect Artefact",
+			"Sixth Sense",
+			"Instinctive Diction"
+		],
+		"trappings": [
+			"Ambition",
+			"Grimoire of Dark Magic",
+			"Ritual Dagger",
+			"Staff"
+		],
+		"incomeSkill": []
+	},
+	"effects": [],
+	"folder": null,
+	"_id": "vNBw0SszLQaCbQy7",
+	"_key": "!items!vNBw0SszLQaCbQy7"
+}

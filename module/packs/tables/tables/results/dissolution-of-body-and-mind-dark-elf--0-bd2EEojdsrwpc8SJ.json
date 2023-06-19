@@ -1,0 +1,15 @@
+{
+	"_id": "bd2EEojdsrwpc8SJ",
+	"type": 0,
+	"text": "<b>Mind</b>: @Table[mutatemental]",
+	"range": [
+		1,
+		100
+	],
+	"drawn": false,
+	"img": "icons/svg/d20-black.svg",
+	"documentCollection": "",
+	"documentId": null,
+	"weight": 1,
+	"_key": "!tables.results!RzL4vZhqGBT8vzvM.bd2EEojdsrwpc8SJ"
+}

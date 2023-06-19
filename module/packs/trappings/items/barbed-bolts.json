@@ -1,0 +1,87 @@
+{
+	"name": "Barbed Bolts",
+	"type": "ammunition",
+	"_id": "b3030elwcSw99Xak",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/equipment/barbed-bolts.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"quantity": {
+			"type": "Number",
+			"label": "Quantity",
+			"value": 1
+		},
+		"encumbrance": {
+			"type": "Number",
+			"label": "Encumbrance",
+			"value": 1
+		},
+		"price": {
+			"type": "String",
+			"label": "Price",
+			"gc": "0",
+			"ss": "8",
+			"bp": "0"
+		},
+		"availability": {
+			"type": "String",
+			"label": "Availability",
+			"value": "exotic"
+		},
+		"location": {
+			"type": "Number",
+			"label": "Location",
+			"value": 0
+		},
+		"ammunitionType": {
+			"type": "String",
+			"label": "Ammunition Type",
+			"value": "crossbow"
+		},
+		"range": {
+			"type": "String",
+			"label": "Range",
+			"value": "As Weapon"
+		},
+		"damage": {
+			"type": "String",
+			"label": "Damage",
+			"dice": "",
+			"value": "+2"
+		},
+		"qualities": {
+			"type": "String",
+			"label": "Qualities",
+			"value": [
+				{
+					"name": "entangle",
+					"value": null
+				},
+				{
+					"name": "impale",
+					"value": null
+				}
+			]
+		},
+		"flaws": {
+			"type": "String",
+			"label": "Flaws",
+			"value": []
+		},
+		"special": {
+			"type": "String",
+			"label": "Special",
+			"value": ""
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"_key": "!items!b3030elwcSw99Xak"
+}

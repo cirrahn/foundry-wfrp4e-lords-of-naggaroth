@@ -1,0 +1,78 @@
+{
+	"name": "Apprentice Sorceress",
+	"type": "career",
+	"_id": "IE8PNcbxIkVWeVDJ",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/sorceress.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Sorceress of Ghrond"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Academics"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "1"
+		},
+		"status": {
+			"tier": "s",
+			"standing": 2
+		},
+		"characteristics": [
+			"ws",
+			"wp",
+			"int"
+		],
+		"skills": [
+			"Channelling (Any Lore)",
+			"Dodge",
+			"Intuition",
+			"Language (Magick)",
+			"Lore (Magick)",
+			"Melee (Basic)",
+			"Melee (Polearm)",
+			"Perception"
+		],
+		"talents": [
+			"Aethyric Attunement",
+			"Power of Darkness",
+			"Read/Write",
+			"Second Sight",
+			"Petty Magic"
+		],
+		"trappings": [
+			"Ambition",
+			"Grimoire of Dark Magic",
+			"Ritual Dagger",
+			"Staff"
+		],
+		"incomeSkill": [
+			3
+		]
+	},
+	"effects": [],
+	"folder": null,
+	"_key": "!items!IE8PNcbxIkVWeVDJ"
+}

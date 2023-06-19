@@ -1,0 +1,15 @@
+{
+	"type": 0,
+	"weight": 1,
+	"range": [
+		8,
+		8
+	],
+	"drawn": false,
+	"documentCollection": "[object Map]",
+	"_id": "jrN8CPuttwUrNSxI",
+	"text": "Silver",
+	"img": "icons/svg/d20-black.svg",
+	"documentId": null,
+	"_key": "!tables.results!rLqbkZtr3az6EFiz.jrN8CPuttwUrNSxI"
+}

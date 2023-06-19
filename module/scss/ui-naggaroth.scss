@@ -320,57 +320,74 @@
 	.directory .directory-header .header-control {
 		left: 0;
 	}
+
 	.tabs .item:hover {
 		text-shadow: 0 0 10px #a600ff
 	}
+
 	a:hover {
-		text-shadow: 0px 0px 8px #a600ff !important;
+		text-shadow: 0 0 8px #a600ff !important;
 	}
+
 	button:hover {
 		box-shadow: 0 0 5px #a600ff !important;
 	}
+
 	input[type="password"]:focus {
 		box-shadow: 0 0 5px #a600ff;
 		outline: none;
 	}
+
 	.combat-sidebar #combat-controls a:hover {
 		box-shadow: 0 0 5px #a600ff !important;
 	}
+
 	.dialog .dialog-buttons button.default:focus
 	{
 		box-shadow: 0 0 5px #a600ff !important;
 	}
+
 	.token-sheet .sheet-tabs .item:hover {
 		box-shadow: 0 0 8px #a600ff !important;
 	}
+
 	#drawing-config .sheet-tabs .item:hover {
 		box-shadow: 0 0 8px #a600ff !important;
 	}
+
 	.item-dialog .directory .directory-item.active {
 		box-shadow: 0 0 8px #a600ff inset;
 	}
+
 	#client-settings .sheet-tabs .item:hover {
 		box-shadow: 0 0 8px #a600ff !important;
 	}
+
 	.wfrp4e.table-sheet .tabs .item:hover {
 		box-shadow: 0 0 8px #a600ff !important;
 	}
+
 	.wfrp4e.table-sheet .table-contents .table-row .row-label:hover {
 		text-shadow: 0 0 8px #a600ff !important;
 	}
+
 	#career-selector .career-tier:hover {
 		text-shadow: 0 0 8px #a600ff !important;
 		cursor: pointer;
 	}
+
 	#career-selector .career-tier.active {
-		box-shadow: inset 0px 0px 3px 3px #a600ff;
+		box-shadow: inset 0 0 3px 3px #a600ff;
 	}
+
 	#av-config .sheet-tabs .item:hover {
 		box-shadow: 0 0 8px #a600ff !important;
 	}
+
 	.forien-quest-preview nav .item:hover{
 		box-shadow: 0 0 8px #a600ff !important;
 	}
+
 	.simple-calendar.classic .fsc-e .fsc-m .fsc-n .fsc-o:hover {
 		background-color: unset;
 		box-shadow: 0 0 8px #a600ff !important;
@@ -379,106 +396,134 @@
 	#module-management .window-content .modules-list .module header input[type="checkbox"] {
 		background: #241635;
 	}
+
 	#homebrew-settings .window-content form .form-group select,
 	#client-settings .window-content form .form-group select {
 		background: #241635;
 	}
+
 	.system-wfrp4e .dice-so-nice .sfxs-list input{
 		background: #241635;
 	}
+
 	.system-wfrp4e .dice-so-nice .sfxs-list select {
 		background: #241635;
 	}
+
 	.token-sheet .detection-modes select,
 	.token-sheet .detection-modes input,
 	#module-management .list-filters input,
 	.app.window-app .form-group input {
 		background: #241635;
 	}
+
 	.app.window-app .form-group select {
 		background: #241635;
 	}
+
 	.active-effect-sheet .effect-change input{
 		background: #241635;
 	}
+
 	.active-effect-sheet .effect-change select {
 		background: #241635;
 	}
+
 	.token-sheet .tab[data-tab="image"] .form-group .range-value {
 		background: #241635;
 	}
+
 	.token-sheet .tab[data-tab="resources"] .form-group .bar1-value {
 		background: #241635;
 	}
+
 	.token-sheet .tab[data-tab="resources"] .form-group .bar2-value {
 		background: #241635;
 	}
+
 	.token-sheet .tab[data-tab="resources"] .form-group .sep {
 		background: #241635;
 	}
+
 	#drawing-config .tab[data-tab="image"] .form-group .scale-value {
 		background: #241635;
 	}
+
 	#drawing-config .tab[data-tab="resources"] .form-group .bar1-value {
 		background: #241635;
 	}
+
 	#drawing-config .tab[data-tab="resources"] .form-group .bar2-value {
 		background: #241635;
 	}
+
 	#drawing-config .tab[data-tab="resources"] .form-group .sep {
 		background: #241635;
 	}
+
 	.result-range > input,
 	.result-weight > input,
 	.result-details > input
 	{
 		background: #241635;
 	}
+
 	.result-type > select,
 	.result-details > select {
 		background: #241635;
 	}
+
 	textarea,
 	.active-effect-sheet textarea,
 	.drawing-sheet textarea,
 	.macro-sheet textarea[name="command"] {
 		background: #241635;
 	}
+
 	#wfrp4e-browser select,
 	#wfrp4e-browser input {
 		background: #241635;
 	}
+
 	#wfrp4e-browser .item-filter.save-scroll div input[type="checkbox"] {
 		background: #241635;
 	}
+
 	.dd-import-text {
 		background: #241635;
 	}
+
 	#filter-config input[type="checkbox"],
 	#effects-config input[type="checkbox"] {
 		background: #241635;
 	}
+
 	#filter-config input,
 	#effects-config input {
 		background: #241635;
 	}
+
 	.app.window-app.dialog .form-group.import .file-picker {
 		background: #241635;
 	}
+
 	#stat-parser textarea {
 		background: #241635;
 	}
+
 	#calendar-settings .window-content form select,
-	#calendar-settings .window-content form input
-	{
+	#calendar-settings .window-content form input {
 		background: #241635;
 	}
+
 	.calendar-form-container select {
 		background: #241635;
 	}
+
 	.calendar-form-container input {
 		background: #241635;
 	}
+
 	.calendar-form-container #calendar-form-cDay-input,
 	.calendar-form-container #calendar-form-year-input,
 	.calendar-form-container #calendar-form-era-input,
@@ -487,45 +532,54 @@
 	.calendar-form-container #calendar-form-hour-input{
 		background-color: #241635 !important;
 	}
+
 	.gm-screen-grid-cell-header {
 		background: #241635 !important;
 	}
+
 	.simple-calendar.classic .fsc-mf .tabs .fsc-hb {
 		background: #241635;
 	}
+
 	.simple-calendar.classic .fsc-mf .tabs .fsc-nf .fsc-gb ul li.fsc-qf, .simple-calendar.classic .fsc-mf .tabs .fsc-nf .fsc-gb ul li:hover {
 		background: #241635;
 	}
+
 	.simple-calendar.classic .fsc-mf .tabs .fsc-nf .fsc-gb ul li {
 		background: #241635;
 	}
+
 	#sidebar #settings ul {
 		background: #241635;
 	}
+
 	#client-settings {
 		border-width: 10px;
-		border-image: url(../ui/game-settings-border.webp) 5 repeat;
+		border-image: url("../ui/game-settings-border.webp") 5 repeat;
 		border-image-slice: 162 81 67 80;
 		border-image-width: 162px 81px 67px 80px;
-		border-image-outset: 0px;
+		border-image-outset: 0;
 	}
+
 	#client-settings .window-content {
-		margin: 0px 70px 57px 70px;
-		padding: 0px;
-		border: none;
-		background: url(../ui/game-settings-background.webp);
+		margin: 0 70px 57px;
+		padding: 0;
+		border: 0;
+		background: url("../ui/game-settings-background.webp");
 		background-size: 199%;
 		background-position-x: center;
 	}
+
 	#homebrew-settings .window-content button, #client-settings .window-content button {
-		border-image: url(../ui/footer-button.webp) 10 repeat;
+		border-image: url("../ui/footer-button.webp") 10 repeat;
 		border-image-width: 4px;
-		border-image-outset: 0px;
-		background: url(../ui/sidebar_button-background_red.webp) repeat;
+		border-image-outset: 0;
+		background: url("../ui/sidebar_button-background_red.webp") repeat;
 		background-origin: padding-box;
 	}
+
 	#module-management .window-content {
 		overflow: auto;
-		background: url(../ui/frames/window-app-background-bookshelf.webp);
+		background: url("../ui/frames/window-app-background-bookshelf.webp");
 	}
 }

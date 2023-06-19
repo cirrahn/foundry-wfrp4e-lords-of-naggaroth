@@ -1,0 +1,70 @@
+{
+	"name": "Corsair",
+	"type": "career",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/corsair.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Black Ark Corsair"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Riverfolk"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "2"
+		},
+		"status": {
+			"tier": "s",
+			"standing": 3
+		},
+		"characteristics": [
+			"wp"
+		],
+		"skills": [
+			"Athletics",
+			"Cool",
+			"Gamble",
+			"Intimidate",
+			"Intuition",
+			"Lore (Torture)"
+		],
+		"talents": [
+			"Menacing",
+			"Sea Legs",
+			"Stout-hearted",
+			"Old Salt"
+		],
+		"trappings": [
+			"Sea Dragon Cloak",
+			"boarding hooks and rope",
+			"knucklebone dice"
+		],
+		"incomeSkill": []
+	},
+	"effects": [],
+	"folder": null,
+	"_id": "rf0k6Kffobl3B8oE",
+	"_key": "!items!rf0k6Kffobl3B8oE"
+}

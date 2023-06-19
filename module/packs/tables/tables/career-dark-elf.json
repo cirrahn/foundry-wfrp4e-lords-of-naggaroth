@@ -1,0 +1,43 @@
+{
+	"name": "Career - Dark Elf",
+	"_id": "TYojgaw8FEDP34Ga",
+	"img": "systems/wfrp4e/ui/buttons/d10.webp",
+	"description": "",
+	"results": [
+		"gkR7gnaC1O0OttsO",
+		"zJL9dYXGSPrWGmIM",
+		"WCzS972yFoLQojbV",
+		"KYKdYCjf67ZGSgSL",
+		"6cVLmRfBjxs895b4",
+		"euiw103RpbkfMF0K",
+		"bcFXGUMUEUSmM4Z1",
+		"lDPnVvh0lEtIQLk1",
+		"7YhFNnBLsDEIcSu1",
+		"7Gk5hpPPVZBRbmmV",
+		"IQRsItIcXKPEgtGE",
+		"iWCtXdjwOLOSnc53",
+		"YIb9mLtoTX2Md9dp",
+		"r6PCZSg71c1ngbpo",
+		"EpSHDuXSDw1RE3GJ",
+		"e3oZKNfcNyEohSj7",
+		"FMAvDEsXpR9slH1f",
+		"AlRQy8NcYxlxFx69",
+		"nnjBEDbzMHzz64Fv",
+		"sJygMTsvVtdOky0Z"
+	],
+	"replacement": true,
+	"displayRoll": true,
+	"folder": null,
+	"flags": {
+		"wfrp4e": {
+			"key": "career",
+			"column": "delf"
+		},
+		"wfrp4e-lords-of-naggaroth": {
+			"initialization-folder": "Career Tables",
+			"sort": 0
+		}
+	},
+	"formula": "1d100",
+	"_key": "!tables!TYojgaw8FEDP34Ga"
+}

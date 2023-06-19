@@ -1,0 +1,70 @@
+{
+	"name": "Beastslaver",
+	"type": "career",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/beastmaster.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Beastmaster"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Rangers"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "3"
+		},
+		"status": {
+			"tier": "s",
+			"standing": 5
+		},
+		"characteristics": [
+			"i"
+		],
+		"skills": [
+			"Drive",
+			"Haggle",
+			"Ranged (Crossbow)",
+			"Stealth (Rural)"
+		],
+		"talents": [
+			"Fearless (Monsters)",
+			"Robust",
+			"Crack the Whip",
+			"Rover",
+			"Sure Shot"
+		],
+		"trappings": [
+			"Beast Goad (Hand weapon)",
+			"Whip",
+			"Trainee Lizard-hawk",
+			"Desire to be the very best"
+		],
+		"incomeSkill": []
+	},
+	"effects": [],
+	"folder": null,
+	"_id": "ooPKGMUHKmcRyZdk",
+	"_key": "!items!ooPKGMUHKmcRyZdk"
+}

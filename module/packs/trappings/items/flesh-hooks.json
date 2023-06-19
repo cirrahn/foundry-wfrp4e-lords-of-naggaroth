@@ -1,0 +1,65 @@
+{
+	"name": "Flesh Hooks",
+	"type": "trapping",
+	"_id": "plnQA2NbC0SmHBD3",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/equipment/flesh-hooks.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"quantity": {
+			"type": "Number",
+			"label": "Quantity",
+			"value": 1
+		},
+		"encumbrance": {
+			"type": "Number",
+			"label": "Encumbrance",
+			"value": 0
+		},
+		"price": {
+			"type": "String",
+			"label": "Price",
+			"gc": "0",
+			"ss": "0",
+			"bp": "0"
+		},
+		"availability": {
+			"type": "String",
+			"label": "Availability",
+			"value": "None"
+		},
+		"location": {
+			"type": "Number",
+			"label": "Location",
+			"value": 0
+		},
+		"trappingType": {
+			"type": "String",
+			"label": "Trapping Type",
+			"value": ""
+		},
+		"worn": false,
+		"spellIngredient": {
+			"type": "String",
+			"value": ""
+		},
+		"qualities": {
+			"label": "Qualities",
+			"value": []
+		},
+		"flaws": {
+			"label": "Flaws",
+			"value": []
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"_key": "!items!plnQA2NbC0SmHBD3"
+}

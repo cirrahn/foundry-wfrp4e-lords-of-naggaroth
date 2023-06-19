@@ -1,0 +1,20 @@
+{
+	"name": "Black Ark Corsair",
+	"type": "text",
+	"_id": "uQRILXBSoudR167R",
+	"title": {
+		"show": true,
+		"level": 1
+	},
+	"image": {},
+	"text": {
+		"format": 1
+	},
+	"video": {
+		"controls": true,
+		"volume": 0.5
+	},
+	"src": null,
+	"system": {},
+	"_key": "!journal.pages!ZDjfja1l01s997pq.uQRILXBSoudR167R"
+}

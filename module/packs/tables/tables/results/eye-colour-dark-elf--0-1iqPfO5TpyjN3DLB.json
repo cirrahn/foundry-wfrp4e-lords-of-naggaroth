@@ -1,0 +1,15 @@
+{
+	"_id": "1iqPfO5TpyjN3DLB",
+	"type": 0,
+	"text": "Emerald",
+	"range": [
+		20,
+		20
+	],
+	"drawn": false,
+	"img": "icons/svg/d20-black.svg",
+	"documentCollection": "",
+	"documentId": null,
+	"weight": 1,
+	"_key": "!tables.results!kCQgOdJM75fWwLm3.1iqPfO5TpyjN3DLB"
+}

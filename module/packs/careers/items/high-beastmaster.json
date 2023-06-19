@@ -1,0 +1,64 @@
+{
+	"name": "High Beastmaster",
+	"type": "career",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/beastmaster.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Beastmaster"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Rangers"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "4"
+		},
+		"status": {
+			"tier": "g",
+			"standing": 1
+		},
+		"characteristics": [
+			"int"
+		],
+		"skills": [
+			"Ride (Any)",
+			"Intuition"
+		],
+		"talents": [
+			"Frightening",
+			"Strike Mighty Blow",
+			"Strong-minded",
+			"Tenacious"
+		],
+		"trappings": [
+			"Trained monster (typically a Manticore or War-Hydra in Naggaroth) Apprentice Beastmaster"
+		],
+		"incomeSkill": []
+	},
+	"effects": [],
+	"folder": null,
+	"_id": "6YMJGc5jBGPCds1v",
+	"_key": "!items!6YMJGc5jBGPCds1v"
+}

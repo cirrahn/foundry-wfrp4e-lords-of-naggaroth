@@ -1,0 +1,68 @@
+{
+	"name": "Reaver",
+	"type": "career",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/corsair.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Black Ark Corsair"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Riverfolk"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "3"
+		},
+		"status": {
+			"tier": "s",
+			"standing": 6
+		},
+		"characteristics": [
+			"bs"
+		],
+		"skills": [
+			"Evaluate",
+			"Ranged (Crossbow)",
+			"Perception",
+			"Language (Any)",
+			"Leadership"
+		],
+		"talents": [
+			"Ambidextrous",
+			"Fast Shot",
+			"Robust",
+			"Pilot"
+		],
+		"trappings": [
+			"Repeating Handbow with 10 bolts",
+			"landing party of bloodthirsty Corsairs"
+		],
+		"incomeSkill": []
+	},
+	"effects": [],
+	"folder": null,
+	"_id": "hEq1DBaWDk8x9XHl",
+	"_key": "!items!hEq1DBaWDk8x9XHl"
+}

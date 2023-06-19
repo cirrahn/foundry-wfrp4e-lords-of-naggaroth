@@ -1,0 +1,67 @@
+{
+	"name": "Bloody Handed",
+	"type": "career",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/disciple.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Disciple of Khaine"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Rogues"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "4"
+		},
+		"status": {
+			"tier": "s",
+			"standing": 5
+		},
+		"characteristics": [
+			"fel"
+		],
+		"skills": [
+			"Leadership",
+			"Melee (Any)"
+		],
+		"talents": [
+			"Combat Master",
+			"Fearless (Any)",
+			"Instinctive Diction",
+			"Stout-hearted"
+		],
+		"trappings": [
+			"Draich",
+			"Mask of Khaines Aspect"
+		],
+		"incomeSkill": [
+			7
+		]
+	},
+	"effects": [],
+	"folder": null,
+	"_id": "QPkEOq14IV4WJCnD",
+	"_key": "!items!QPkEOq14IV4WJCnD"
+}

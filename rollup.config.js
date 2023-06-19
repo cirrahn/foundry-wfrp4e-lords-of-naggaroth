@@ -1,10 +1,11 @@
 import * as fs from "fs";
 import * as path from "path";
-import {getBuildPath} from "./foundry-path.js";
-import {RollupManifestBuilder} from "./build/rollup-plugin-manifest-builder.js";
 import copy from "rollup-plugin-copy";
 import watch from "rollup-plugin-watch";
 import scss from "rollup-plugin-scss";
+import {getBuildPath} from "./foundry-path.js";
+import {RollupManifestBuilder} from "./build/rollup-plugin-manifest-builder.js";
+import {RollupPackBuilder} from "./build/rollup-plugin-pack-builder.js";
 
 const packageJson = JSON.parse(fs.readFileSync("package.json", "utf-8"));
 
@@ -27,7 +28,6 @@ export default cliArgs => {
 					{src: "module/data/*", dest: path.join(systemPath, "data")},
 					{src: "module/icons/*", dest: path.join(systemPath, "icons")},
 					{src: "module/lang/*", dest: path.join(systemPath, "lang")},
-					cliArgs.configPacks ? {src: "module/packs/*", dest: path.join(systemPath, "packs")} : null,
 					{src: "module/scss/*", dest: path.join(systemPath, "scss")},
 					{src: "module/ui/*", dest: path.join(systemPath, "ui")},
 					{src: "module/initialization.json", dest: systemPath},
@@ -43,6 +43,9 @@ export default cliArgs => {
 						/module\/(initialization\.json)/,
 					],
 				}),
+			(cliArgs.configPacks || process.env.NODE_ENV === "production")
+				? RollupPackBuilder.getPlugin(systemPath)
+				: null,
 		].filter(Boolean),
 	});
 };

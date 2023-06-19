@@ -1,0 +1,15 @@
+{
+	"type": 0,
+	"weight": 1,
+	"range": [
+		10,
+		10
+	],
+	"drawn": false,
+	"documentCollection": "[object Map]",
+	"_id": "kSHXw1a1pLQweGM6",
+	"text": "Dyed",
+	"img": "icons/svg/d20-black.svg",
+	"documentId": null,
+	"_key": "!tables.results!rLqbkZtr3az6EFiz.kSHXw1a1pLQweGM6"
+}

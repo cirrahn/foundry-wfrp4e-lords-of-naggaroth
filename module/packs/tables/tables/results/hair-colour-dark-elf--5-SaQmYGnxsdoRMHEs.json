@@ -1,0 +1,15 @@
+{
+	"type": 0,
+	"weight": 1,
+	"range": [
+		9,
+		9
+	],
+	"drawn": false,
+	"documentCollection": "[object Map]",
+	"_id": "SaQmYGnxsdoRMHEs",
+	"text": "Platinum",
+	"img": "icons/svg/d20-black.svg",
+	"documentId": null,
+	"_key": "!tables.results!rLqbkZtr3az6EFiz.SaQmYGnxsdoRMHEs"
+}

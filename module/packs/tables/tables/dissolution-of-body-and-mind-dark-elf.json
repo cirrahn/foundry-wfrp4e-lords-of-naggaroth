@@ -1,0 +1,24 @@
+{
+	"name": "Dissolution of Body and Mind - Dark Elf",
+	"img": "systems/wfrp4e/ui/buttons/d10.webp",
+	"results": [
+		"bd2EEojdsrwpc8SJ"
+	],
+	"formula": "1d100",
+	"replacement": true,
+	"displayRoll": true,
+	"folder": null,
+	"flags": {
+		"wfrp4e": {
+			"key": "corruption",
+			"column": "delf"
+		},
+		"wfrp4e-lords-of-naggaroth": {
+			"initialization-folder": "Corruption & Mutation Tables",
+			"sort": 0
+		}
+	},
+	"description": "",
+	"_id": "RzL4vZhqGBT8vzvM",
+	"_key": "!tables!RzL4vZhqGBT8vzvM"
+}

@@ -1,0 +1,77 @@
+{
+	"name": "Initiate",
+	"type": "career",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/disciple.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Disciple of Khaine"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Rogues"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "1"
+		},
+		"status": {
+			"tier": "b",
+			"standing": 5
+		},
+		"characteristics": [
+			"ws",
+			"s",
+			"wp"
+		],
+		"skills": [
+			"Channelling (Khainite Sorcery)",
+			"Cool",
+			"Dodge",
+			"Intuition",
+			"Lore (Theology)",
+			"Melee (Any)",
+			"Language (Magick)",
+			"Pray"
+		],
+		"talents": [
+			"Aethyric Attunement",
+			"Holy Visions",
+			"Strike Mighty Blow",
+			"Strong-Minded"
+		],
+		"trappings": [
+			"Sacrificial dagger",
+			"Bladed hand weapon",
+			"cult robes",
+			"Grimoire of Khainite Sorcery"
+		],
+		"incomeSkill": [
+			7
+		]
+	},
+	"effects": [],
+	"folder": null,
+	"_id": "QRfHygGjnjRYljIQ",
+	"_key": "!items!QRfHygGjnjRYljIQ"
+}

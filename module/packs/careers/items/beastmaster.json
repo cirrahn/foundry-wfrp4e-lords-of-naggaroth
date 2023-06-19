@@ -1,0 +1,71 @@
+{
+	"name": "Beastmaster",
+	"type": "career",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/beastmaster.png",
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"careergroup": {
+			"type": "String",
+			"label": "Career Group",
+			"value": "Beastmaster"
+		},
+		"class": {
+			"type": "String",
+			"label": "Class",
+			"value": "Rangers"
+		},
+		"current": {
+			"type": "Boolean",
+			"value": false
+		},
+		"complete": {
+			"type": "Boolean",
+			"value": false
+		},
+		"level": {
+			"type": "String",
+			"label": "Career Level",
+			"value": "2"
+		},
+		"status": {
+			"tier": "s",
+			"standing": 3
+		},
+		"characteristics": [
+			"s"
+		],
+		"skills": [
+			"Athletics",
+			"Cool",
+			"Intimidate",
+			"Lore (Beasts)",
+			"Set Trap",
+			"Track"
+		],
+		"talents": [
+			"Animal Affinity",
+			"Menacing",
+			"Strider (Any)",
+			"Stout-hearted"
+		],
+		"trappings": [
+			"Beast Goad (Hand weapon)",
+			"Whip",
+			"Trainee Lizard-hawk",
+			"Desire to be the very best"
+		],
+		"incomeSkill": []
+	},
+	"effects": [],
+	"folder": null,
+	"_id": "CFhyQFYBpE8faVqZ",
+	"_key": "!items!CFhyQFYBpE8faVqZ"
+}
