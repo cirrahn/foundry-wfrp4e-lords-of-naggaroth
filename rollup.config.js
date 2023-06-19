@@ -29,6 +29,7 @@ export default cliArgs => {
 					{src: "module/icons/*", dest: path.join(systemPath, "icons")},
 					{src: "module/lang/*", dest: path.join(systemPath, "lang")},
 					{src: "module/scss/*", dest: path.join(systemPath, "scss")},
+					{src: "module/tokens/*", dest: path.join(systemPath, "tokens")},
 					{src: "module/ui/*", dest: path.join(systemPath, "ui")},
 					{src: "module/initialization.json", dest: systemPath},
 				].filter(Boolean),
@@ -39,7 +40,7 @@ export default cliArgs => {
 				: watch({
 					dir: path.join(process.cwd(), "module"),
 					include: [
-						/module\/(art|data|icons|lang|scss|ui)(\/.*)?/,
+						/module\/(art|data|icons|lang|scss|tokens|ui)(\/.*)?/,
 						/module\/(initialization\.json)/,
 					],
 				}),
