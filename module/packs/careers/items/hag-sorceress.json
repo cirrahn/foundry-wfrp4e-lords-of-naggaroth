@@ -1,7 +1,7 @@
 {
 	"name": "Hag Sorceress",
 	"type": "career",
-	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/sorceress.png",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/sorceress-03.png",
 	"system": {
 		"description": {
 			"type": "String",

@@ -2,7 +2,7 @@
 	"name": "Raider",
 	"type": "career",
 	"_id": "yp0qaJlW2JjOk89c",
-	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/corsair.png",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/corsair-01.png",
 	"system": {
 		"description": {
 			"type": "String",

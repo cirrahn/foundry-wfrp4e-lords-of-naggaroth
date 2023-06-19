@@ -1,7 +1,7 @@
 {
 	"name": "Sorceress",
 	"type": "career",
-	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/sorceress.png",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/sorceress-02.png",
 	"system": {
 		"description": {
 			"type": "String",

@@ -1,7 +1,7 @@
 {
 	"name": "Beastslaver",
 	"type": "career",
-	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/beastmaster.png",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/beastmaster-03.png",
 	"system": {
 		"description": {
 			"type": "String",

@@ -1,7 +1,7 @@
 {
 	"name": "High Sorceress",
 	"type": "career",
-	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/sorceress.png",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/sorceress-04.png",
 	"system": {
 		"description": {
 			"type": "String",

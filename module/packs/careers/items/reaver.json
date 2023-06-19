@@ -1,7 +1,7 @@
 {
 	"name": "Reaver",
 	"type": "career",
-	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/corsair.png",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/corsair-03.png",
 	"system": {
 		"description": {
 			"type": "String",

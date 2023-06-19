@@ -1,7 +1,7 @@
 {
 	"name": "Anointed",
 	"type": "career",
-	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/disciple.png",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/disciple-03.png",
 	"system": {
 		"description": {
 			"type": "String",

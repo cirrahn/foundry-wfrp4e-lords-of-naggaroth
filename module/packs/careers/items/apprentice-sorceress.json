@@ -2,7 +2,7 @@
 	"name": "Apprentice Sorceress",
 	"type": "career",
 	"_id": "IE8PNcbxIkVWeVDJ",
-	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/sorceress.png",
+	"img": "modules/wfrp4e-lords-of-naggaroth/icons/careers/sorceress-01.png",
 	"system": {
 		"description": {
 			"type": "String",
