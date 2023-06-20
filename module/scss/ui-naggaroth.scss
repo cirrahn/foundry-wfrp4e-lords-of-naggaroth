@@ -1,4 +1,7 @@
 .skin-naggaroth {
+	$rgb-bg-ipt: #241635;
+	$rgb-shadow-active: #a600ff;
+
 	body {
 		background: url("../ui/background.webp") repeat;
 	}
@@ -325,206 +328,206 @@
 	}
 
 	.tabs .item:hover {
-		text-shadow: 0 0 10px #a600ff
+		text-shadow: 0 0 10px $rgb-shadow-active
 	}
 
 	a:hover {
-		text-shadow: 0 0 8px #a600ff !important;
+		text-shadow: 0 0 8px $rgb-shadow-active !important;
 	}
 
 	button:hover {
-		box-shadow: 0 0 5px #a600ff !important;
+		box-shadow: 0 0 5px $rgb-shadow-active !important;
 	}
 
 	input[type="password"]:focus {
-		box-shadow: 0 0 5px #a600ff;
+		box-shadow: 0 0 5px $rgb-shadow-active;
 		outline: none;
 	}
 
 	.combat-sidebar #combat-controls a:hover {
-		box-shadow: 0 0 5px #a600ff !important;
+		box-shadow: 0 0 5px $rgb-shadow-active !important;
 	}
 
 	.dialog .dialog-buttons button.default:focus
 	{
-		box-shadow: 0 0 5px #a600ff !important;
+		box-shadow: 0 0 5px $rgb-shadow-active !important;
 	}
 
 	.token-sheet .sheet-tabs .item:hover {
-		box-shadow: 0 0 8px #a600ff !important;
+		box-shadow: 0 0 8px $rgb-shadow-active !important;
 	}
 
 	#drawing-config .sheet-tabs .item:hover {
-		box-shadow: 0 0 8px #a600ff !important;
+		box-shadow: 0 0 8px $rgb-shadow-active !important;
 	}
 
 	.item-dialog .directory .directory-item.active {
-		box-shadow: 0 0 8px #a600ff inset;
+		box-shadow: 0 0 8px $rgb-shadow-active inset;
 	}
 
 	#client-settings .sheet-tabs .item:hover {
-		box-shadow: 0 0 8px #a600ff !important;
+		box-shadow: 0 0 8px $rgb-shadow-active !important;
 	}
 
 	.wfrp4e.table-sheet .tabs .item:hover {
-		box-shadow: 0 0 8px #a600ff !important;
+		box-shadow: 0 0 8px $rgb-shadow-active !important;
 	}
 
 	.wfrp4e.table-sheet .table-contents .table-row .row-label:hover {
-		text-shadow: 0 0 8px #a600ff !important;
+		text-shadow: 0 0 8px $rgb-shadow-active !important;
 	}
 
 	#career-selector .career-tier:hover {
-		text-shadow: 0 0 8px #a600ff !important;
+		text-shadow: 0 0 8px $rgb-shadow-active !important;
 		cursor: pointer;
 	}
 
 	#career-selector .career-tier.active {
-		box-shadow: inset 0 0 3px 3px #a600ff;
+		box-shadow: inset 0 0 3px 3px $rgb-shadow-active;
 	}
 
 	#av-config .sheet-tabs .item:hover {
-		box-shadow: 0 0 8px #a600ff !important;
+		box-shadow: 0 0 8px $rgb-shadow-active !important;
 	}
 
 	.forien-quest-preview nav .item:hover{
-		box-shadow: 0 0 8px #a600ff !important;
+		box-shadow: 0 0 8px $rgb-shadow-active !important;
 	}
 
 	.simple-calendar.classic .fsc-e .fsc-m .fsc-n .fsc-o:hover {
 		background-color: unset;
-		box-shadow: 0 0 8px #a600ff !important;
+		box-shadow: 0 0 8px $rgb-shadow-active !important;
 	}
 
 	#module-management .window-content .modules-list .module header input[type="checkbox"] {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#homebrew-settings .window-content form .form-group select,
 	#client-settings .window-content form .form-group select {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.system-wfrp4e .dice-so-nice .sfxs-list input{
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.system-wfrp4e .dice-so-nice .sfxs-list select {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.token-sheet .detection-modes select,
 	.token-sheet .detection-modes input,
 	#module-management .list-filters input,
 	.app.window-app .form-group input {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.app.window-app .form-group select {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.active-effect-sheet .effect-change input{
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.active-effect-sheet .effect-change select {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.token-sheet .tab[data-tab="image"] .form-group .range-value {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.token-sheet .tab[data-tab="resources"] .form-group .bar1-value {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.token-sheet .tab[data-tab="resources"] .form-group .bar2-value {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.token-sheet .tab[data-tab="resources"] .form-group .sep {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#drawing-config .tab[data-tab="image"] .form-group .scale-value {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#drawing-config .tab[data-tab="resources"] .form-group .bar1-value {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#drawing-config .tab[data-tab="resources"] .form-group .bar2-value {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#drawing-config .tab[data-tab="resources"] .form-group .sep {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.result-range > input,
 	.result-weight > input,
 	.result-details > input
 	{
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.result-type > select,
 	.result-details > select {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	textarea,
 	.active-effect-sheet textarea,
 	.drawing-sheet textarea,
 	.macro-sheet textarea[name="command"] {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#wfrp4e-browser select,
 	#wfrp4e-browser input {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#wfrp4e-browser .item-filter.save-scroll div input[type="checkbox"] {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.dd-import-text {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#filter-config input[type="checkbox"],
 	#effects-config input[type="checkbox"] {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#filter-config input,
 	#effects-config input {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.app.window-app.dialog .form-group.import .file-picker {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#stat-parser textarea {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#calendar-settings .window-content form select,
 	#calendar-settings .window-content form input {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.calendar-form-container select {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.calendar-form-container input {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.calendar-form-container #calendar-form-cDay-input,
@@ -533,27 +536,31 @@
 	.calendar-form-container #calendar-form-minute-input,
 	.calendar-form-container #calendar-form-second-input,
 	.calendar-form-container #calendar-form-hour-input{
-		background-color: #241635 !important;
+		background-color: $rgb-bg-ipt !important;
 	}
 
 	.gm-screen-grid-cell-header {
-		background: #241635 !important;
+		background: $rgb-bg-ipt !important;
 	}
 
 	.simple-calendar.classic .fsc-mf .tabs .fsc-hb {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.simple-calendar.classic .fsc-mf .tabs .fsc-nf .fsc-gb ul li.fsc-qf, .simple-calendar.classic .fsc-mf .tabs .fsc-nf .fsc-gb ul li:hover {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	.simple-calendar.classic .fsc-mf .tabs .fsc-nf .fsc-gb ul li {
-		background: #241635;
+		background: $rgb-bg-ipt;
 	}
 
 	#sidebar #settings ul {
-		background: #241635;
+		background: $rgb-bg-ipt;
+	}
+
+	.trait-sheet .tab.details input {
+		background: none;
 	}
 
 	#client-settings {
