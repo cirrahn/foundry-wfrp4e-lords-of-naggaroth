@@ -23,19 +23,34 @@ export class RollupManifestBuilder {
 
 		const manifestJson = {
 			"id": packageJson.name,
-			"title": "WFRP4e - Lords of Naggaroth",
+			"title": "WFRP4e - Lords of Naggaroth Homebrew",
 			"description": `"Lords of Naggaroth" homebrew content for the Warhammer Fantasy 4th Edition System.`,
 			"version": packageJson.version,
 			"authors": [
+				// region Homebrew author
+				{
+					"name": "Naggaroth Anon",
+					"email": "naggarothanon@gmail.com",
+				},
+				// endregion
+
+				// region Module conversion
+				{
+					"name": "Archa",
+					"flags": {
+						"github": "Archachacha",
+					},
+				},
 				{
 					"name": "cirrahn",
 					"url": "https://www.patreon.com/cirrahn",
-					"discord": "cirrahn#3081",
+					"discord": "cirrahn",
 					"flags": {
 						"patreon": "cirrahn",
 						"github": "cirrahn",
 					},
 				},
+				// endregion
 			],
 			"keywords": [
 				"content",
@@ -48,7 +63,7 @@ export class RollupManifestBuilder {
 
 			"compatibility": {
 				"minimum": "11",
-				"verified": "11.300",
+				"verified": "11.302",
 			},
 
 			"esmodules": [
