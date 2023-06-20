@@ -8,4 +8,6 @@ With all the content available, the module will seamlessly integrate into the ex
 
 Additionally, an alternate "Naggaroth" theme is available in the module's settings.
 
-![preview.png](docs%2Fpreview.png)
+![preview-journal.png](docs%2Fpreview-journal.png)
+
+![preview-content.png](docs%2Fpreview-content.png)
