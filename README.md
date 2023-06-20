@@ -1,6 +1,6 @@
 # Warhammer Fantasy Roleplay 4e - Lords of Naggaroth Homebrew
 
-An adaptation of the [Lords of Naggaroth](docs%2FLords%20of%20Naggaroth%201.2.3.pdf) homebrew, for Foundry VTT.
+An adaptation of the [Lords of Naggaroth](docs%2FLords%20of%20Naggaroth%201.2.3.pdf) homebrew (by _"Naggaroth Anon"_), for Foundry VTT.
 
 Works best when paired with the [Core](https://foundryvtt.com/packages/wfrp4e-core) module.
 
