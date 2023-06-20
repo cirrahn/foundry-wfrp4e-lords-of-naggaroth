@@ -1,0 +1,58 @@
+{
+	"name": "Fast",
+	"type": "trait",
+	"img": "modules/wfrp4e-core/icons/traits/trait.png",
+	"effects": [
+		"MNEkuGwCbsQ6vdRr"
+	],
+	"flags": {
+		"core": {
+			"sourceId": "Compendium.wfrp4e-core.traits.9MjH4xyVrd3Inzak"
+		}
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description",
+			"value": "<p>The creature moves unexpectedly fast. It receives +1 Movement and +10 Agility.</p>"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"rollable": {
+			"value": false,
+			"damage": false,
+			"skill": "",
+			"label": "Rollable",
+			"type": "Boolean",
+			"rollCharacteristic": "",
+			"bonusCharacteristic": "",
+			"dice": "",
+			"defaultDifficulty": "challenging",
+			"SL": true,
+			"attackType": "melee"
+		},
+		"specification": {
+			"value": "",
+			"type": "String",
+			"label": "Specification"
+		},
+		"qualities": {
+			"label": "Qualities",
+			"value": []
+		},
+		"flaws": {
+			"label": "Flaws",
+			"value": []
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "MT2OPgCkuFBTZ4LH",
+	"folder": null,
+	"_key": "!actors.items!SH67ZlhT6n3KIfWs.MT2OPgCkuFBTZ4LH"
+}

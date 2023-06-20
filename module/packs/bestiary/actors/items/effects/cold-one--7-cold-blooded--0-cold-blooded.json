@@ -1,0 +1,30 @@
+{
+	"_id": "cq8SZaHuRYPHsnQF",
+	"flags": {
+		"wfrp4e": {
+			"effectTrigger": "preRollTest",
+			"effectApplication": "actor",
+			"script": "if (args.test.characteristicKey == \"wp\")\n   args.test.preData.canReverse = true",
+			"preventDuplicateEffects": true
+		}
+	},
+	"changes": [],
+	"disabled": false,
+	"duration": {
+		"startTime": null,
+		"seconds": null,
+		"combat": null,
+		"rounds": null,
+		"turns": null,
+		"startRound": null,
+		"startTurn": null
+	},
+	"icon": "modules/wfrp4e-core/icons/traits/trait.png",
+	"tint": null,
+	"transfer": true,
+	"origin": null,
+	"name": "Cold Blooded",
+	"description": "",
+	"statuses": [],
+	"_key": "!actors.items.effects!3N4A7t3NqRuX7y5J.TJwGrT1tYDLgzQxT.cq8SZaHuRYPHsnQF"
+}

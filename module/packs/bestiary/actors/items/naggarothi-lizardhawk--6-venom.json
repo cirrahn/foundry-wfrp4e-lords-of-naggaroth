@@ -1,0 +1,59 @@
+{
+	"name": "Venom",
+	"type": "trait",
+	"img": "modules/wfrp4e-core/icons/traits/trait.png",
+	"effects": [
+		"cwsT8KWhr0OgtWc1"
+	],
+	"flags": {
+		"_sheetTab": "description",
+		"core": {
+			"sourceId": "Compendium.wfrp4e-core.traits.gFkRm9wS65qe18Xv"
+		}
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description",
+			"value": "<p>The creature’s attacks are poisoned or envenomed. When it causes Wounds, its opponent gains a @Condition[Poisoned] Condition. If no Difficulty is marked to resist the Venom, it is assumed to be Challenging</p>"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"rollable": {
+			"value": false,
+			"damage": false,
+			"skill": "",
+			"label": "Rollable",
+			"type": "Boolean",
+			"rollCharacteristic": "",
+			"bonusCharacteristic": "",
+			"dice": "",
+			"defaultDifficulty": "challenging",
+			"SL": true,
+			"attackType": "melee"
+		},
+		"specification": {
+			"value": "",
+			"type": "String",
+			"label": "Specification"
+		},
+		"qualities": {
+			"label": "Qualities",
+			"value": []
+		},
+		"flaws": {
+			"label": "Flaws",
+			"value": []
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "Gubl1BXhxdH3jm6E",
+	"folder": null,
+	"_key": "!actors.items!SH67ZlhT6n3KIfWs.Gubl1BXhxdH3jm6E"
+}

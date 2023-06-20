@@ -1,0 +1,51 @@
+{
+	"name": "Mimic",
+	"type": "talent",
+	"img": "modules/wfrp4e-core/icons/talents/mimic.png",
+	"effects": [],
+	"flags": {
+		"core": {
+			"sourceId": "Compendium.wfrp4e-core.talents.LU6Ycl5z4kp1Wr04"
+		}
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description",
+			"value": "<p>You have a good ear for accents and dialects, and can reproduce them accurately. You may replicate any accent you are exposed to for at least a day with an Initiative Test; this Test may be attempted once per day. Once passed, you may always mimic the accent, and locals will believe you to be one of their own</p>"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"max": {
+			"type": "String",
+			"label": "Max Advances",
+			"value": "i"
+		},
+		"advances": {
+			"type": "Number",
+			"label": "Advances",
+			"value": 1,
+			"force": false
+		},
+		"career": {
+			"value": "",
+			"type": "String",
+			"label": "Career"
+		},
+		"tests": {
+			"type": "String",
+			"label": "Tests",
+			"value": "Entertain (Acting) Tests where accents are important"
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "BzfTb1ToQzGSPCoz",
+	"folder": null,
+	"_key": "!actors.items!SH67ZlhT6n3KIfWs.BzfTb1ToQzGSPCoz"
+}

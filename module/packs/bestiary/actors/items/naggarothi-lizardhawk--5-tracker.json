@@ -1,0 +1,58 @@
+{
+	"name": "Tracker",
+	"type": "trait",
+	"img": "modules/wfrp4e-core/icons/traits/trait.png",
+	"effects": [
+		"ftGagmf8rj6rq3ir"
+	],
+	"flags": {
+		"core": {
+			"sourceId": "Compendium.wfrp4e-core.traits.ClOlztW6hH8rslbp"
+		}
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description",
+			"value": "<p>Trackers are adept at following their prey, generally through scent or hearing. They add SL equal to their Initiative Bonus to all Track Tests.</p>"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"rollable": {
+			"value": false,
+			"damage": false,
+			"skill": "",
+			"label": "Rollable",
+			"type": "Boolean",
+			"rollCharacteristic": "",
+			"bonusCharacteristic": "",
+			"dice": "",
+			"defaultDifficulty": "challenging",
+			"SL": true,
+			"attackType": "melee"
+		},
+		"specification": {
+			"value": "",
+			"type": "String",
+			"label": "Specification"
+		},
+		"qualities": {
+			"label": "Qualities",
+			"value": []
+		},
+		"flaws": {
+			"label": "Flaws",
+			"value": []
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "DiKh3lIrtZzfzgJ9",
+	"folder": null,
+	"_key": "!actors.items!SH67ZlhT6n3KIfWs.DiKh3lIrtZzfzgJ9"
+}

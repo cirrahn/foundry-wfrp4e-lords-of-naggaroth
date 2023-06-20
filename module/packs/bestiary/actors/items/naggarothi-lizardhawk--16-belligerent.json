@@ -1,0 +1,57 @@
+{
+	"name": "Belligerent",
+	"type": "trait",
+	"img": "modules/wfrp4e-core/icons/traits/trait.png",
+	"effects": [],
+	"flags": {
+		"_sheetTab": "details",
+		"core": {
+			"sourceId": "Compendium.wfrp4e-core.traits.GbDyBCu8ZjDp6dkj"
+		}
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description",
+			"value": "<p>The creature loves to win a fight. As long as it has more Advantage than its opponent, it is Immune to Psychology</p>"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"rollable": {
+			"value": false,
+			"damage": false,
+			"skill": "",
+			"label": "Rollable",
+			"type": "Boolean",
+			"rollCharacteristic": "",
+			"bonusCharacteristic": "",
+			"dice": "",
+			"defaultDifficulty": "challenging",
+			"SL": true,
+			"attackType": "melee"
+		},
+		"specification": {
+			"value": "",
+			"type": "String",
+			"label": "Specification"
+		},
+		"qualities": {
+			"label": "Qualities",
+			"value": []
+		},
+		"flaws": {
+			"label": "Flaws",
+			"value": []
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "u4q9ZGWxpKIgaW74",
+	"folder": null,
+	"_key": "!actors.items!SH67ZlhT6n3KIfWs.u4q9ZGWxpKIgaW74"
+}

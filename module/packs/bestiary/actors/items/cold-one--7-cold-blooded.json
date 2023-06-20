@@ -1,0 +1,58 @@
+{
+	"name": "Cold Blooded",
+	"type": "trait",
+	"img": "modules/wfrp4e-core/icons/traits/trait.png",
+	"effects": [
+		"cq8SZaHuRYPHsnQF"
+	],
+	"flags": {
+		"core": {
+			"sourceId": "Compendium.wfrp4e-core.traits.mCh1KK9jomwFZcLB"
+		}
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description",
+			"value": "<p>The creature is cold-blooded and slow to react. It can reverse all failed Willpower Tests.</p>"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"rollable": {
+			"value": false,
+			"damage": false,
+			"skill": "",
+			"label": "Rollable",
+			"type": "Boolean",
+			"rollCharacteristic": "",
+			"bonusCharacteristic": "",
+			"dice": "",
+			"defaultDifficulty": "challenging",
+			"SL": true,
+			"attackType": "melee"
+		},
+		"specification": {
+			"value": "",
+			"type": "String",
+			"label": "Specification"
+		},
+		"qualities": {
+			"label": "Qualities",
+			"value": []
+		},
+		"flaws": {
+			"label": "Flaws",
+			"value": []
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "TJwGrT1tYDLgzQxT",
+	"folder": null,
+	"_key": "!actors.items!3N4A7t3NqRuX7y5J.TJwGrT1tYDLgzQxT"
+}

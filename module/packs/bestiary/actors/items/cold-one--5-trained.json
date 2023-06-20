@@ -1,0 +1,57 @@
+{
+	"name": "Trained",
+	"type": "trait",
+	"img": "modules/wfrp4e-core/icons/traits/trait.png",
+	"effects": [],
+	"flags": {
+		"_sheetTab": "details",
+		"core": {
+			"sourceId": "Compendium.wfrp4e-core.traits.V0naR1YbYCl0KIxp"
+		}
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description",
+			"value": "<p>This trait represents animals that have been trained through the Animal Training Skill. The skills the animal knows is marked in the brackets. Feel free to create your own trained skills.</p>\n        <p><strong>Broken</strong>: The animal is trained to ignore its Bestial trait. it receives [[/r 2d10]] Fellowship.</p>\n        <p><strong>Drive</strong>: The animal is trained to pull a coach, cart, plough, buggy, or similar.</p>\n        <p><strong>Entertain</strong>: The animal is trained to entertain others. It adds a +10 bonus to appropriate Entertain, Perform, or Play Tests.</p>\n        <p><strong>Fetch</strong>: The animal is trained to fetch. This is normal reserved for Dogs and similar.</p>\n        <p><strong>Guard</strong>: The animal is trained to stay in one place or prowl around as a guard, granting it the Territorial Trait.</p>\n        <p><strong> Home</strong>: The animal is trained to return home if it is released or lost.</p>\n        <p><strong>Magic</strong>: The animal is trained to ignore Skittish when it comes to magic, which is required for most horses used by Wizards.</p>\n        <p><strong>Mount</strong>: The animal will accept a rider. Some creatures are especially belligerent, and will not accept a rider without the correct skill. So, to ride a Griffon, you need the Ride (Griffon) skill.</p>\n        <p><strong>War</strong>: The animal is trained for war, gaining +10 Weapon Skill. It can also ignore Skittish for loud noises.</p>"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"rollable": {
+			"value": false,
+			"damage": false,
+			"skill": "",
+			"label": "Rollable",
+			"type": "Boolean",
+			"rollCharacteristic": "",
+			"bonusCharacteristic": "",
+			"dice": "",
+			"defaultDifficulty": "challenging",
+			"SL": true,
+			"attackType": "melee"
+		},
+		"specification": {
+			"value": "Broken, Guard, Mount, War",
+			"type": "String",
+			"label": "Specification"
+		},
+		"qualities": {
+			"label": "Qualities",
+			"value": []
+		},
+		"flaws": {
+			"label": "Flaws",
+			"value": []
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "LsJegeDI0gyRjMsb",
+	"folder": null,
+	"_key": "!actors.items!3N4A7t3NqRuX7y5J.LsJegeDI0gyRjMsb"
+}

@@ -1,0 +1,57 @@
+{
+	"name": "Territorial",
+	"type": "trait",
+	"img": "modules/wfrp4e-core/icons/traits/trait.png",
+	"effects": [],
+	"flags": {
+		"_sheetTab": "details",
+		"core": {
+			"sourceId": "Compendium.wfrp4e-core.traits.JIAe7i7dqTQBu4do"
+		}
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description",
+			"value": "<p>This creature is protective of a particular area or location. It will fight to the death to protect it and will not normally pursue enemies if they ﬂee this area.</p>"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"rollable": {
+			"value": false,
+			"damage": false,
+			"skill": "",
+			"label": "Rollable",
+			"type": "Boolean",
+			"rollCharacteristic": "",
+			"bonusCharacteristic": "",
+			"dice": "",
+			"defaultDifficulty": "challenging",
+			"SL": true,
+			"attackType": "melee"
+		},
+		"specification": {
+			"value": "",
+			"type": "String",
+			"label": "Specification"
+		},
+		"qualities": {
+			"label": "Qualities",
+			"value": []
+		},
+		"flaws": {
+			"label": "Flaws",
+			"value": []
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "xNJovyM3F7ILh7ie",
+	"folder": null,
+	"_key": "!actors.items!SH67ZlhT6n3KIfWs.xNJovyM3F7ILh7ie"
+}

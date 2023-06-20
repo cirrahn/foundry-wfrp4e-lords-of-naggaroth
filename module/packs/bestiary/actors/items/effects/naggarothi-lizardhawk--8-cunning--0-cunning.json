@@ -1,0 +1,47 @@
+{
+	"_id": "psBMxER5fywmsI6p",
+	"flags": {
+		"wfrp4e": {
+			"effectApplication": "actor",
+			"preventDuplicateEffects": false
+		}
+	},
+	"changes": [
+		{
+			"key": "system.characteristics.fel.initial",
+			"value": "10",
+			"mode": 2,
+			"priority": null
+		},
+		{
+			"key": "system.characteristics.int.initial",
+			"value": "10",
+			"mode": 2,
+			"priority": null
+		},
+		{
+			"key": "system.characteristics.i.initial",
+			"value": "10",
+			"mode": 2,
+			"priority": null
+		}
+	],
+	"disabled": false,
+	"duration": {
+		"startTime": null,
+		"seconds": null,
+		"combat": null,
+		"rounds": null,
+		"turns": null,
+		"startRound": null,
+		"startTurn": null
+	},
+	"icon": "modules/wfrp4e-core/icons/traits/trait.png",
+	"tint": null,
+	"transfer": true,
+	"origin": null,
+	"name": "Cunning",
+	"description": "",
+	"statuses": [],
+	"_key": "!actors.items.effects!SH67ZlhT6n3KIfWs.Obr4M55HDfokXpAx.psBMxER5fywmsI6p"
+}

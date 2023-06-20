@@ -1,0 +1,311 @@
+{
+	"name": "Cold One",
+	"type": "creature",
+	"img": "modules/wfrp4e-lords-of-naggaroth/art/bestiary/cold-one.png",
+	"system": {
+		"characteristics": {
+			"ws": {
+				"type": "number",
+				"label": "CHAR.WS",
+				"abrev": "CHARAbbrev.WS",
+				"initial": 45,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"bs": {
+				"type": "Number",
+				"label": "CHAR.BS",
+				"abrev": "CHARAbbrev.BS",
+				"initial": 0,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"s": {
+				"type": "Number",
+				"label": "CHAR.S",
+				"abrev": "CHARAbbrev.S",
+				"initial": 45,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"t": {
+				"type": "Number",
+				"label": "CHAR.T",
+				"abrev": "CHARAbbrev.T",
+				"initial": 45,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"i": {
+				"type": "Number",
+				"label": "CHAR.I",
+				"abrev": "CHARAbbrev.I",
+				"initial": 20,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"ag": {
+				"type": "Number",
+				"label": "CHAR.Ag",
+				"abrev": "CHARAbbrev.Ag",
+				"initial": 20,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"dex": {
+				"type": "Number",
+				"label": "CHAR.Dex",
+				"abrev": "CHARAbbrev.Dex",
+				"initial": 0,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"int": {
+				"type": "Number",
+				"label": "CHAR.Int",
+				"abrev": "CHARAbbrev.Int",
+				"initial": 20,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"wp": {
+				"type": "Number",
+				"label": "CHAR.WP",
+				"abrev": "CHARAbbrev.WP",
+				"initial": 30,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"fel": {
+				"type": "Number",
+				"label": "CHAR.Fel",
+				"abrev": "CHARAbbrev.Fel",
+				"initial": 0,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			}
+		},
+		"status": {
+			"wounds": {
+				"type": "Number",
+				"label": "Wounds",
+				"abrev": "W",
+				"value": 30,
+				"max": 30
+			},
+			"advantage": {
+				"type": "Number",
+				"label": "Advantage",
+				"value": 0,
+				"max": 10
+			},
+			"criticalWounds": {
+				"type": "Number",
+				"label": "Critical Wounds",
+				"value": 0,
+				"max": 2
+			},
+			"sin": {
+				"type": "Number",
+				"label": "Sin",
+				"value": "0"
+			},
+			"penalties": {
+				"type": "String",
+				"label": "Penalties",
+				"value": ""
+			},
+			"corruption": {
+				"type": "Number",
+				"label": "Corruption",
+				"value": 0
+			},
+			"encumbrance": {
+				"type": "Number",
+				"label": "Encumbrance",
+				"max": 0,
+				"current": 0
+			},
+			"mount": {
+				"id": "",
+				"mounted": false,
+				"isToken": false,
+				"tokenData": {
+					"scene": "",
+					"token": ""
+				}
+			}
+		},
+		"details": {
+			"species": {
+				"type": "String",
+				"label": "Species",
+				"value": "Cold One",
+				"subspecies": ""
+			},
+			"gender": {
+				"type": "String",
+				"label": "Gender",
+				"value": "Varies"
+			},
+			"biography": {
+				"type": "String",
+				"label": "Biography"
+			},
+			"gmnotes": {
+				"type": "String",
+				"label": "GM Notes",
+				"value": ""
+			},
+			"size": {
+				"type": "String",
+				"label": "Size",
+				"value": "avg"
+			},
+			"move": {
+				"type": "Number",
+				"label": "Movement",
+				"value": 5,
+				"walk": 0,
+				"run": 0
+			},
+			"god": {
+				"type": "String",
+				"label": "God",
+				"value": ""
+			},
+			"status": {
+				"type": "String",
+				"value": "",
+				"standing": "",
+				"tier": 0,
+				"modifier": 0
+			},
+			"hitLocationTable": {
+				"value": "hitloc",
+				"type": "String",
+				"label": "Hit Location Table"
+			}
+		},
+		"excludedTraits": [
+			"sOkEI1GQBWjTIOoZ",
+			"g8BRcD0OwepSMg2v",
+			"Vrwodu0GGX6J7ghX",
+			"LsJegeDI0gyRjMsb"
+		]
+	},
+	"prototypeToken": {
+		"name": "Cold One",
+		"displayName": 20,
+		"actorLink": false,
+		"appendNumber": false,
+		"prependAdjective": false,
+		"texture": {
+			"src": "modules/wfrp4e-lords-of-naggaroth/tokens/cold-one.webp",
+			"scaleX": 2,
+			"scaleY": 2,
+			"offsetX": 0,
+			"offsetY": 0,
+			"rotation": 0
+		},
+		"width": 2,
+		"height": 2,
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": 0,
+		"displayBars": 20,
+		"bar1": {
+			"attribute": "status.wounds"
+		},
+		"bar2": {
+			"attribute": "status.advantage"
+		},
+		"light": {
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"detectionModes": [],
+		"flags": {},
+		"randomImg": false
+	},
+	"items": [
+		"KrRSDlGs0oBy3fEP",
+		"QWUIvKhyoHkmMfy8",
+		"TJwGrT1tYDLgzQxT",
+		"ZKkXu53h9dvtgJkV",
+		"moRpa2xTXJGKMtXR",
+		"X4I58VZjnlUyYdF9",
+		"sOkEI1GQBWjTIOoZ",
+		"g8BRcD0OwepSMg2v",
+		"Vrwodu0GGX6J7ghX",
+		"LsJegeDI0gyRjMsb",
+		"VSE3CjsVQEwTT5Yv"
+	],
+	"effects": [
+		"I2L4EPpKet1aJ7el",
+		"T3WD65X5TIi5vnOx",
+		"4q19bThlvCsLc5sL",
+		"AYLYosOd69z4T2iq"
+	],
+	"folder": null,
+	"flags": {
+		"autoCalcRun": true,
+		"autoCalcWalk": true,
+		"autoCalcWounds": true,
+		"autoCalcCritW": true,
+		"autoCalcCorruption": true,
+		"autoCalcEnc": true,
+		"autoCalcSize": true
+	},
+	"_id": "3N4A7t3NqRuX7y5J",
+	"_key": "!actors!3N4A7t3NqRuX7y5J"
+}

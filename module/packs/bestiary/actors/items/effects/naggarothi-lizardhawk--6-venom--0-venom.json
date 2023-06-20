@@ -1,0 +1,31 @@
+{
+	"_id": "cwsT8KWhr0OgtWc1",
+	"flags": {
+		"wfrp4e": {
+			"effectTrigger": "applyDamage",
+			"effectApplication": "actor",
+			"script": "if (args.totalWoundLoss > 0)\n    args.actor.addCondition(\"poisoned\")",
+			"preventDuplicateEffects": false,
+			"hide": false
+		}
+	},
+	"changes": [],
+	"disabled": false,
+	"duration": {
+		"startTime": null,
+		"seconds": null,
+		"combat": null,
+		"rounds": null,
+		"turns": null,
+		"startRound": null,
+		"startTurn": null
+	},
+	"icon": "modules/wfrp4e-core/icons/traits/trait.png",
+	"tint": null,
+	"transfer": true,
+	"origin": null,
+	"name": "Venom",
+	"description": "",
+	"statuses": [],
+	"_key": "!actors.items.effects!SH67ZlhT6n3KIfWs.Gubl1BXhxdH3jm6E.cwsT8KWhr0OgtWc1"
+}

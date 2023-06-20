@@ -1,0 +1,30 @@
+{
+	"_id": "AYLYosOd69z4T2iq",
+	"flags": {
+		"wfrp4e": {
+			"effectTrigger": "preWoundCalc",
+			"effectApplication": "actor",
+			"script": "args.multiplier.tb += 1",
+			"preventDuplicateEffects": false
+		}
+	},
+	"changes": [],
+	"disabled": false,
+	"duration": {
+		"startTime": 0,
+		"seconds": null,
+		"combat": null,
+		"rounds": null,
+		"turns": null,
+		"startRound": null,
+		"startTurn": null
+	},
+	"icon": "modules/wfrp4e-core/icons/traits/trait.png",
+	"tint": null,
+	"transfer": false,
+	"origin": "Actor.3N4A7t3NqRuX7y5J.Item.g8BRcD0OwepSMg2v",
+	"name": "Hardy",
+	"description": "",
+	"statuses": [],
+	"_key": "!actors.effects!3N4A7t3NqRuX7y5J.AYLYosOd69z4T2iq"
+}

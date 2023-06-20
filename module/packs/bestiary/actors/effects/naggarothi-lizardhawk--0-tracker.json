@@ -1,0 +1,30 @@
+{
+	"_id": "EpsbTxjEWJ9agePX",
+	"flags": {
+		"wfrp4e": {
+			"effectTrigger": "prefillDialog",
+			"effectApplication": "actor",
+			"script": "if (args.type == \"skill\" &&  args.item.name.includes(\"Track\"))\n{\n   let sl = this.actor.characteristics.i.bonus\n   args.prefillModifiers.slBonus += sl;\n}",
+			"preventDuplicateEffects": false
+		}
+	},
+	"changes": [],
+	"disabled": false,
+	"duration": {
+		"startTime": 0,
+		"seconds": null,
+		"combat": null,
+		"rounds": null,
+		"turns": null,
+		"startRound": null,
+		"startTurn": null
+	},
+	"icon": "modules/wfrp4e-core/icons/traits/trait.png",
+	"tint": null,
+	"transfer": false,
+	"origin": "Actor.SH67ZlhT6n3KIfWs.Item.DiKh3lIrtZzfzgJ9",
+	"name": "Tracker",
+	"description": "",
+	"statuses": [],
+	"_key": "!actors.effects!SH67ZlhT6n3KIfWs.EpsbTxjEWJ9agePX"
+}

@@ -1,0 +1,41 @@
+{
+	"_id": "bYqkDSMAol3MbqFX",
+	"flags": {
+		"wfrp4e": {
+			"effectApplication": "actor",
+			"preventDuplicateEffects": false
+		}
+	},
+	"changes": [
+		{
+			"key": "system.details.move.value",
+			"value": "1",
+			"mode": 2,
+			"priority": null
+		},
+		{
+			"key": "system.characteristics.ag.initial",
+			"value": "10",
+			"mode": 2,
+			"priority": null
+		}
+	],
+	"disabled": false,
+	"duration": {
+		"startTime": 0,
+		"seconds": null,
+		"combat": null,
+		"rounds": null,
+		"turns": null,
+		"startRound": null,
+		"startTurn": null
+	},
+	"icon": "modules/wfrp4e-core/icons/traits/trait.png",
+	"tint": null,
+	"transfer": false,
+	"origin": "Actor.SH67ZlhT6n3KIfWs.Item.MT2OPgCkuFBTZ4LH",
+	"name": "Fast",
+	"description": "",
+	"statuses": [],
+	"_key": "!actors.effects!SH67ZlhT6n3KIfWs.bYqkDSMAol3MbqFX"
+}

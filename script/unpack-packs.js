@@ -8,6 +8,7 @@ class PackUnpacker {
 	static _PACK_DIR = "script/packs-raw";
 
 	static _HTML_PATHS = [
+		{keyPrefix: "actors", dotPath: "system.details.biography.value"},
 		{keyPrefix: "items", dotPath: "system.description.value"},
 		{keyPrefix: "journal.pages", dotPath: "text.content"},
 	];

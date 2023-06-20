@@ -1,0 +1,59 @@
+{
+	"name": "Armour",
+	"type": "trait",
+	"img": "modules/wfrp4e-core/icons/traits/trait.png",
+	"effects": [
+		"CAcGBn8sq62mVUxJ"
+	],
+	"flags": {
+		"_sheetTab": "details",
+		"core": {
+			"sourceId": "Compendium.wfrp4e-core.traits.VUJUZVN3VYhOaPjj"
+		}
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description",
+			"value": "<p>The creature is protected by armor or thick hide. It has Rating Armor Points on all Hit Locations</p>"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"rollable": {
+			"value": false,
+			"damage": false,
+			"skill": "",
+			"label": "Rollable",
+			"type": "Boolean",
+			"rollCharacteristic": "",
+			"bonusCharacteristic": "",
+			"dice": "",
+			"defaultDifficulty": "challenging",
+			"SL": true,
+			"attackType": "melee"
+		},
+		"specification": {
+			"value": "3",
+			"type": "String",
+			"label": "Specification"
+		},
+		"qualities": {
+			"label": "Qualities",
+			"value": []
+		},
+		"flaws": {
+			"label": "Flaws",
+			"value": []
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "KrRSDlGs0oBy3fEP",
+	"folder": null,
+	"_key": "!actors.items!3N4A7t3NqRuX7y5J.KrRSDlGs0oBy3fEP"
+}

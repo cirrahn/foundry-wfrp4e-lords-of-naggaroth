@@ -1,0 +1,30 @@
+{
+	"_id": "4q19bThlvCsLc5sL",
+	"flags": {
+		"wfrp4e": {
+			"effectTrigger": "prepareData",
+			"effectApplication": "actor",
+			"script": "args.actor.details.move.run *= 1.5",
+			"preventDuplicateEffects": false
+		}
+	},
+	"changes": [],
+	"disabled": false,
+	"duration": {
+		"startTime": 0,
+		"seconds": null,
+		"combat": null,
+		"rounds": null,
+		"turns": null,
+		"startRound": null,
+		"startTurn": null
+	},
+	"icon": "modules/wfrp4e-core/icons/traits/trait.png",
+	"tint": null,
+	"transfer": false,
+	"origin": "Actor.3N4A7t3NqRuX7y5J.Item.moRpa2xTXJGKMtXR",
+	"name": "Stride",
+	"description": "",
+	"statuses": [],
+	"_key": "!actors.effects!3N4A7t3NqRuX7y5J.4q19bThlvCsLc5sL"
+}

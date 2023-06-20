@@ -1,0 +1,57 @@
+{
+	"name": "Flight",
+	"type": "trait",
+	"img": "modules/wfrp4e-core/icons/traits/trait.png",
+	"effects": [],
+	"flags": {
+		"_sheetTab": "details",
+		"core": {
+			"sourceId": "Compendium.wfrp4e-core.traits.EO05HX7jql0g605A"
+		}
+	},
+	"system": {
+		"description": {
+			"type": "String",
+			"label": "Description",
+			"value": "<p>As the creature’s Move, it can ﬂy up to Rating yards. When ﬂying, it ignores all intervening terrain, obstacles, or characters. At the end of the move, it decides whether it has landed or is still ﬂying. It can use this move to Charge. If it starts its turn ﬂying, it must choose to Fly for its Move. If it cannot do this, the GM decides how far the creature falls.</p>\n        <p>When targeting it, measure horizontal distance as normal, then increase range by 1 step. So, a Long Range shot would become Extreme Range, and if it was at Extreme Range it could not be shot at all.</p>\n        <p>When ﬂying, it suffers a penalty of –20 to all ranged combat attempts as it swoops and wheels in the sky</p>"
+		},
+		"gmdescription": {
+			"type": "String",
+			"label": "Description",
+			"value": ""
+		},
+		"rollable": {
+			"value": false,
+			"damage": false,
+			"skill": "",
+			"label": "Rollable",
+			"type": "Boolean",
+			"rollCharacteristic": "",
+			"bonusCharacteristic": "",
+			"dice": "",
+			"defaultDifficulty": "challenging",
+			"SL": true,
+			"attackType": "melee"
+		},
+		"specification": {
+			"value": "60",
+			"type": "String",
+			"label": "Specification"
+		},
+		"qualities": {
+			"label": "Qualities",
+			"value": []
+		},
+		"flaws": {
+			"label": "Flaws",
+			"value": []
+		},
+		"source": {
+			"type": "String",
+			"label": "Source"
+		}
+	},
+	"_id": "n0D71nx4KzJNd4XZ",
+	"folder": null,
+	"_key": "!actors.items!SH67ZlhT6n3KIfWs.n0D71nx4KzJNd4XZ"
+}

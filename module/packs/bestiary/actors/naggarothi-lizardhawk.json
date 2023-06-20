@@ -1,0 +1,326 @@
+{
+	"name": "Naggarothi Lizard-hawk",
+	"type": "creature",
+	"img": "modules/wfrp4e-lords-of-naggaroth/art/bestiary/naggarothi-lizard-hawk.png",
+	"system": {
+		"characteristics": {
+			"ws": {
+				"type": "number",
+				"label": "CHAR.WS",
+				"abrev": "CHARAbbrev.WS",
+				"initial": 45,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"bs": {
+				"type": "Number",
+				"label": "CHAR.BS",
+				"abrev": "CHARAbbrev.BS",
+				"initial": 0,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"s": {
+				"type": "Number",
+				"label": "CHAR.S",
+				"abrev": "CHARAbbrev.S",
+				"initial": 15,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"t": {
+				"type": "Number",
+				"label": "CHAR.T",
+				"abrev": "CHARAbbrev.T",
+				"initial": 15,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"i": {
+				"type": "Number",
+				"label": "CHAR.I",
+				"abrev": "CHARAbbrev.I",
+				"initial": 30,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"ag": {
+				"type": "Number",
+				"label": "CHAR.Ag",
+				"abrev": "CHARAbbrev.Ag",
+				"initial": 40,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"dex": {
+				"type": "Number",
+				"label": "CHAR.Dex",
+				"abrev": "CHARAbbrev.Dex",
+				"initial": 0,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"int": {
+				"type": "Number",
+				"label": "CHAR.Int",
+				"abrev": "CHARAbbrev.Int",
+				"initial": 20,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"wp": {
+				"type": "Number",
+				"label": "CHAR.WP",
+				"abrev": "CHARAbbrev.WP",
+				"initial": 20,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			},
+			"fel": {
+				"type": "Number",
+				"label": "CHAR.Fel",
+				"abrev": "CHARAbbrev.Fel",
+				"initial": 10,
+				"modifier": 0,
+				"advances": 0,
+				"bonusMod": 0,
+				"calculationBonusModifier": 0
+			}
+		},
+		"status": {
+			"wounds": {
+				"type": "Number",
+				"label": "Wounds",
+				"abrev": "W",
+				"value": 1,
+				"max": 1
+			},
+			"advantage": {
+				"type": "Number",
+				"label": "Advantage",
+				"value": 0,
+				"max": 10
+			},
+			"criticalWounds": {
+				"type": "Number",
+				"label": "Critical Wounds",
+				"value": 0,
+				"max": 2
+			},
+			"sin": {
+				"type": "Number",
+				"label": "Sin",
+				"value": "0"
+			},
+			"penalties": {
+				"type": "String",
+				"label": "Penalties",
+				"value": ""
+			},
+			"corruption": {
+				"type": "Number",
+				"label": "Corruption",
+				"value": 0
+			},
+			"encumbrance": {
+				"type": "Number",
+				"label": "Encumbrance",
+				"max": 0,
+				"current": 0
+			},
+			"mount": {
+				"id": "",
+				"mounted": false,
+				"isToken": false,
+				"tokenData": {
+					"scene": "",
+					"token": ""
+				}
+			}
+		},
+		"details": {
+			"species": {
+				"type": "String",
+				"label": "Species",
+				"value": "Lizard-hawk",
+				"subspecies": ""
+			},
+			"gender": {
+				"type": "String",
+				"label": "Gender",
+				"value": "Varies"
+			},
+			"biography": {
+				"type": "String",
+				"label": "Biography"
+			},
+			"gmnotes": {
+				"type": "String",
+				"label": "GM Notes",
+				"value": ""
+			},
+			"size": {
+				"type": "String",
+				"label": "Size",
+				"value": "avg"
+			},
+			"move": {
+				"type": "Number",
+				"label": "Movement",
+				"value": 2,
+				"walk": 0,
+				"run": 0
+			},
+			"god": {
+				"type": "String",
+				"label": "God",
+				"value": ""
+			},
+			"status": {
+				"type": "String",
+				"value": "",
+				"standing": "",
+				"tier": 0,
+				"modifier": 0
+			},
+			"hitLocationTable": {
+				"value": "hitloc",
+				"type": "String",
+				"label": "Hit Location Table"
+			}
+		},
+		"excludedTraits": [
+			"R1ODKu2LFFaE1pWR",
+			"uMnYC50eTQYp3Ok5",
+			"Gubl1BXhxdH3jm6E",
+			"xNJovyM3F7ILh7ie",
+			"DiKh3lIrtZzfzgJ9",
+			"fOjcC68dJBoG8xmI",
+			"Obr4M55HDfokXpAx",
+			"MT2OPgCkuFBTZ4LH",
+			"u4q9ZGWxpKIgaW74"
+		]
+	},
+	"prototypeToken": {
+		"name": "Naggarothi Lizard-hawk",
+		"displayName": 20,
+		"actorLink": false,
+		"appendNumber": false,
+		"prependAdjective": false,
+		"texture": {
+			"src": "modules/wfrp4e-lords-of-naggaroth/tokens/naggarothi-lizard-hawk.webp",
+			"scaleX": 1,
+			"scaleY": 1,
+			"offsetX": 0,
+			"offsetY": 0,
+			"rotation": 0
+		},
+		"width": 1,
+		"height": 1,
+		"lockRotation": false,
+		"rotation": 0,
+		"alpha": 1,
+		"disposition": 0,
+		"displayBars": 20,
+		"bar1": {
+			"attribute": "status.wounds"
+		},
+		"bar2": {
+			"attribute": "status.advantage"
+		},
+		"light": {
+			"alpha": 0.5,
+			"angle": 360,
+			"bright": 0,
+			"coloration": 1,
+			"dim": 0,
+			"attenuation": 0.5,
+			"luminosity": 0.5,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"animation": {
+				"type": null,
+				"speed": 5,
+				"intensity": 5,
+				"reverse": false
+			},
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"sight": {
+			"enabled": false,
+			"range": 0,
+			"angle": 360,
+			"visionMode": "basic",
+			"attenuation": 0.1,
+			"brightness": 0,
+			"saturation": 0,
+			"contrast": 0
+		},
+		"detectionModes": [],
+		"flags": {},
+		"randomImg": false
+	},
+	"items": [
+		"rCgThC1srwUCBADL",
+		"RbIDNhjJ8c6H008g",
+		"n0D71nx4KzJNd4XZ",
+		"p9664WPn3mxaBDTI",
+		"Vx8AqTgcxbq4Pvaz",
+		"ve4xjilMa9T4QyK1",
+		"u4q9ZGWxpKIgaW74",
+		"Obr4M55HDfokXpAx",
+		"MT2OPgCkuFBTZ4LH",
+		"BzfTb1ToQzGSPCoz",
+		"fOjcC68dJBoG8xmI",
+		"DiKh3lIrtZzfzgJ9",
+		"xNJovyM3F7ILh7ie",
+		"Gubl1BXhxdH3jm6E",
+		"uMnYC50eTQYp3Ok5",
+		"R1ODKu2LFFaE1pWR"
+	],
+	"effects": [
+		"yogrkONry4GwtNEO",
+		"bYqkDSMAol3MbqFX",
+		"EpsbTxjEWJ9agePX",
+		"n0zVjjJNebiiGLxK"
+	],
+	"folder": null,
+	"flags": {
+		"autoCalcRun": true,
+		"autoCalcWalk": true,
+		"autoCalcWounds": true,
+		"autoCalcCritW": true,
+		"autoCalcCorruption": true,
+		"autoCalcEnc": true,
+		"autoCalcSize": true,
+		"wfrp4e": {
+			"sheetCollapsed": {
+				"misc": false
+			}
+		}
+	},
+	"_id": "SH67ZlhT6n3KIfWs",
+	"_key": "!actors!SH67ZlhT6n3KIfWs"
+}

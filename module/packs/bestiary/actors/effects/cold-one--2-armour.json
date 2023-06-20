@@ -1,0 +1,30 @@
+{
+	"_id": "I2L4EPpKet1aJ7el",
+	"flags": {
+		"wfrp4e": {
+			"effectTrigger": "prepareData",
+			"effectApplication": "actor",
+			"script": "let AP = args.actor.status.armour\nlet APdamage = this.item.getFlag('wfrp4e', 'APdamage') || {}\n\nlet value = parseInt(this.item.specification.value)\n\nif (Number.isNumeric(value))\n{\nAP[\"head\"].value += (value - (APdamage.head || 0))\nAP[\"rArm\"].value += (value - (APdamage.rArm|| 0))\nAP[\"lArm\"].value += (value - (APdamage.lArm || 0))\nAP[\"body\"].value += (value - (APdamage.body || 0))\nAP[\"lLeg\"].value += (value - (APdamage.lLeg || 0))\nAP[\"rLeg\"].value += (value - (APdamage.rLeg || 0))\n}",
+			"preventDuplicateEffects": false
+		}
+	},
+	"changes": [],
+	"disabled": false,
+	"duration": {
+		"startTime": 0,
+		"seconds": null,
+		"combat": null,
+		"rounds": null,
+		"turns": null,
+		"startRound": null,
+		"startTurn": null
+	},
+	"icon": "modules/wfrp4e-core/icons/traits/trait.png",
+	"tint": null,
+	"transfer": false,
+	"origin": "Actor.3N4A7t3NqRuX7y5J.Item.KrRSDlGs0oBy3fEP",
+	"name": "Armour",
+	"description": "",
+	"statuses": [],
+	"_key": "!actors.effects!3N4A7t3NqRuX7y5J.I2L4EPpKet1aJ7el"
+}
