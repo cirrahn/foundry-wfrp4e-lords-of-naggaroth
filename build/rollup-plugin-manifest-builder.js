@@ -30,7 +30,6 @@ export class RollupManifestBuilder {
 				// region Homebrew author
 				{
 					"name": "Naggaroth Anon",
-					"email": "naggarothanon@gmail.com",
 				},
 				// endregion
 
