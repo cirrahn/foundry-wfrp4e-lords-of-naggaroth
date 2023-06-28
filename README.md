@@ -11,3 +11,7 @@ Additionally, an alternate "Naggaroth" theme is available in the module's settin
 ![preview-journal.png](docs/preview-journal.png)
 
 ![preview-content.png](docs/preview-content.png)
+
+---
+
+An example change.
